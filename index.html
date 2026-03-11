@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>科研文献资料库</title>
+  <style>
+    :root {
+      --teal: #29aae1;
+      --teal-light: #e1f4fd;
+      --teal-dark: #0077b6;
+      --purple: #48cae4;
+      --purple2: #0096c7;
+      --bg: #f0f8ff;
+      --card-bg: #fff;
+      --text: #1a2e3b;
+      --sub: #6b8fa3;
+      --border: #cce8f5;
+      --tag-bg: #e1f4fd;
+      --tag-color: #0077b6;
+      --radius: 14px;
+      --shadow: 0 2px 12px rgba(41,170,225,0.08);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    .header {
+      background: linear-gradient(135deg, #29aae1 0%, #0077b6 55%, #48cae4 100%);
+      color: #fff;
+      padding: 0 32px;
+      height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 16px rgba(41,170,225,0.22);
+    }
+
+    .header-left { display: flex; align-items: center; gap: 12px; }
+    .header-icon { font-size: 26px; }
+    .header-title { font-size: 20px; font-weight: 700; letter-spacing: 0.5px; }
+    .header-sub { font-size: 12px; opacity: 0.8; margin-top: 2px; }
+
+    .header-stats {
+      display: flex;
+      gap: 20px;
+      font-size: 13px;
+      opacity: 0.92;
+    }
+    .stat-item { text-align: center; }
+    .stat-num { font-size: 22px; font-weight: 700; line-height: 1; }
+    .stat-label { font-size: 11px; opacity: 0.8; margin-top: 2px; }
+
+    /* ── Layout ── */
+    .layout {
+      display: flex;
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 24px 20px;
+      gap: 24px;
+      align-items: flex-start;
+    }
+
+    /* ── Sidebar ── */
+    .sidebar {
+      width: 220px;
+      flex-shrink: 0;
+      position: sticky;
+      top: 88px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .sidebar-section {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .sidebar-title {
+      padding: 12px 16px;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--teal);
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      border-bottom: 1px solid var(--border);
+      background: var(--teal-light);
+    }
+
+    .tag-list { padding: 10px 12px; display: flex; flex-direction: column; gap: 4px; }
+
+    .tag-filter-btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 7px 10px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 13px;
+      color: var(--text);
+      transition: all 0.18s;
+      border: none;
+      background: transparent;
+      text-align: left;
+      width: 100%;
+    }
+    .tag-filter-btn:hover { background: var(--teal-light); color: var(--teal); }
+    .tag-filter-btn.active { background: var(--teal); color: #fff; }
+    .tag-filter-btn.active .tag-count { background: rgba(255,255,255,0.25); color: #fff; }
+    .tag-count {
+      font-size: 11px;
+      background: var(--teal-light);
+      color: var(--teal);
+      border-radius: 10px;
+      padding: 1px 7px;
+      font-weight: 600;
+    }
+
+    .year-list { padding: 10px 12px; display: flex; flex-direction: column; gap: 4px; }
+    .year-btn {
+      padding: 7px 10px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 13px;
+      color: var(--text);
+      transition: all 0.18s;
+      border: none;
+      background: transparent;
+      text-align: left;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .year-btn:hover { background: var(--teal-light); color: var(--teal); }
+    .year-btn.active { background: var(--teal); color: #fff; }
+    .year-btn.active .tag-count { background: rgba(255,255,255,0.25); color: #fff; }
+
+    /* ── Main ── */
+    .main { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 16px; }
+
+    /* ── Search Bar ── */
+    .search-bar {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 16px 20px;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .search-wrap {
+      position: relative;
+      flex: 1;
+      min-width: 200px;
+    }
+    .search-icon {
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 16px;
+      opacity: 0.5;
+    }
+    .search-input {
+      width: 100%;
+      padding: 10px 14px 10px 36px;
+      border: 2px solid var(--border);
+      border-radius: 10px;
+      font-size: 14px;
+      color: var(--text);
+      outline: none;
+      transition: border-color 0.18s;
+      background: var(--bg);
+    }
+    .search-input:focus { border-color: var(--teal); background: #fff; }
+
+    .sort-select {
+      padding: 10px 12px;
+      border: 2px solid var(--border);
+      border-radius: 10px;
+      font-size: 13px;
+      color: var(--text);
+      background: var(--bg);
+      outline: none;
+      cursor: pointer;
+      transition: border-color 0.18s;
+    }
+    .sort-select:focus { border-color: var(--teal); }
+
+    .add-btn {
+      padding: 10px 18px;
+      background: linear-gradient(135deg, var(--teal), var(--teal-dark));
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: opacity 0.18s, transform 0.12s;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      white-space: nowrap;
+    }
+    .add-btn:hover { opacity: 0.9; transform: translateY(-1px); }
+
+    /* ── Result Info ── */
+    .result-info {
+      font-size: 13px;
+      color: var(--sub);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .result-info strong { color: var(--teal); }
+    .clear-filter {
+      font-size: 12px;
+      color: var(--teal);
+      cursor: pointer;
+      text-decoration: underline;
+      background: none;
+      border: none;
+    }
+
+    /* ── Paper Card ── */
+    .paper-card {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 22px 26px;
+      border-left: 4px solid var(--teal);
+      transition: box-shadow 0.18s, transform 0.15s;
+      position: relative;
+    }
+    .paper-card:hover { box-shadow: 0 6px 24px rgba(0,131,143,0.13); transform: translateY(-2px); }
+
+    .paper-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+    .paper-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.5;
+      flex: 1;
+    }
+    .paper-actions { display: flex; gap: 6px; flex-shrink: 0; }
+    .action-btn {
+      padding: 5px 10px;
+      border-radius: 8px;
+      font-size: 12px;
+      cursor: pointer;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      color: var(--sub);
+      transition: all 0.15s;
+    }
+    .action-btn:hover { background: var(--teal-light); color: var(--teal); border-color: var(--teal); }
+    .action-btn.delete:hover { background: #fff5f5; color: #e53e3e; border-color: #e53e3e; }
+
+    .paper-meta {
+      margin-top: 8px;
+      font-size: 13px;
+      color: var(--sub);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 16px;
+      align-items: center;
+    }
+    .meta-item { display: flex; align-items: center; gap: 4px; }
+    .meta-dot { width: 3px; height: 3px; background: var(--border); border-radius: 50%; }
+
+    .paper-abstract {
+      margin-top: 12px;
+      font-size: 13.5px;
+      color: #4a5568;
+      line-height: 1.7;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .paper-abstract.expanded { -webkit-line-clamp: unset; }
+
+    .expand-btn {
+      font-size: 12px;
+      color: var(--teal);
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 4px 0;
+      margin-top: 4px;
+    }
+
+    .paper-tags {
+      margin-top: 12px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      align-items: center;
+    }
+    .tag {
+      padding: 3px 10px;
+      background: var(--teal-light);
+      color: var(--teal);
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .tag:hover { background: var(--teal); color: #fff; }
+
+    .paper-footer {
+      margin-top: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .doi-link {
+      font-size: 12px;
+      color: var(--teal);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .doi-link:hover { text-decoration: underline; }
+
+    .notes-area {
+      width: 100%;
+      margin-top: 12px;
+      padding: 10px 14px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 13px;
+      color: var(--text);
+      background: #fafbff;
+      resize: vertical;
+      min-height: 72px;
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.18s;
+      display: none;
+    }
+    .notes-area.show { display: block; }
+    .notes-area:focus { border-color: var(--teal); }
+
+    /* ── Empty State ── */
+    .empty-state {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--sub);
+    }
+    .empty-icon { font-size: 48px; margin-bottom: 12px; }
+    .empty-text { font-size: 16px; font-weight: 600; margin-bottom: 6px; }
+    .empty-sub { font-size: 13px; }
+
+    /* ── Modal ── */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.45);
+      z-index: 200;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .modal-overlay.show { display: flex; }
+
+    .modal {
+      background: #fff;
+      border-radius: 18px;
+      width: 100%;
+      max-width: 620px;
+      max-height: 90vh;
+      overflow-y: auto;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+      animation: slideUp 0.2s ease;
+    }
+    @keyframes slideUp {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    .modal-header {
+      padding: 22px 26px 16px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .modal-title { font-size: 17px; font-weight: 700; color: var(--teal); }
+    .modal-close {
+      font-size: 22px;
+      cursor: pointer;
+      color: var(--sub);
+      background: none;
+      border: none;
+      line-height: 1;
+    }
+    .modal-close:hover { color: var(--text); }
+
+    .modal-body { padding: 20px 26px 26px; display: flex; flex-direction: column; gap: 14px; }
+
+    .form-group { display: flex; flex-direction: column; gap: 5px; }
+    .form-label {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text);
+    }
+    .form-label span { color: #e53e3e; margin-left: 2px; }
+    .form-input, .form-textarea, .form-select {
+      padding: 10px 14px;
+      border: 2px solid var(--border);
+      border-radius: 10px;
+      font-size: 14px;
+      color: var(--text);
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.18s;
+      background: var(--bg);
+    }
+    .form-input:focus, .form-textarea:focus, .form-select:focus {
+      border-color: var(--teal);
+      background: #fff;
+    }
+    .form-textarea { resize: vertical; min-height: 90px; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .form-hint { font-size: 11px; color: var(--sub); }
+
+    .modal-footer {
+      padding: 0 26px 22px;
+      display: flex;
+      gap: 10px;
+      justify-content: flex-end;
+    }
+    .btn-cancel {
+      padding: 10px 20px;
+      border: 2px solid var(--border);
+      border-radius: 10px;
+      font-size: 14px;
+      background: #fff;
+      color: var(--sub);
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 0.15s;
+    }
+    .btn-cancel:hover { border-color: var(--sub); color: var(--text); }
+    .btn-save {
+      padding: 10px 24px;
+      background: linear-gradient(135deg, var(--teal), var(--teal-dark));
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: opacity 0.18s;
+    }
+    .btn-save:hover { opacity: 0.88; }
+
+    /* ── Highlight ── */
+    mark { background: #fff176; border-radius: 3px; padding: 0 2px; }
+
+    /* ── Responsive ── */
+    @media (max-width: 760px) {
+      .layout { flex-direction: column; padding: 14px 12px; }
+      .sidebar { width: 100%; position: static; flex-direction: row; flex-wrap: wrap; gap: 10px; }
+      .sidebar-section { flex: 1; min-width: 140px; }
+      .header { padding: 0 16px; }
+      .header-stats { display: none; }
+      .form-row { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ══ HEADER ══ -->
+<header class="header">
+  <div class="header-left">
+    <span class="header-icon">🔬</span>
+    <div>
+      <div class="header-title">科研文献资料库</div>
+      <div class="header-sub">Research Library · 关键词检索 · 文献综述助手</div>
+    </div>
+  </div>
+  <div class="header-stats">
+    <div class="stat-item">
+      <div class="stat-num" id="stat-total">0</div>
+      <div class="stat-label">篇文献</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num" id="stat-tags">0</div>
+      <div class="stat-label">个标签</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num" id="stat-years">0</div>
+      <div class="stat-label">个年份</div>
+    </div>
+  </div>
+</header>
+
+<!-- ══ LAYOUT ══ -->
+<div class="layout">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <!-- Tags -->
+    <div class="sidebar-section">
+      <div class="sidebar-title">🏷 研究主题</div>
+      <div class="tag-list" id="tag-list"></div>
+    </div>
+    <!-- Years -->
+    <div class="sidebar-section">
+      <div class="sidebar-title">📅 发表年份</div>
+      <div class="year-list" id="year-list"></div>
+    </div>
+  </aside>
+
+  <!-- Main -->
+  <main class="main">
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+      <div class="search-wrap">
+        <span class="search-icon">🔍</span>
+        <input class="search-input" id="search-input" type="text"
+          placeholder="搜索标题、作者、摘要、关键词…" />
+      </div>
+      <select class="sort-select" id="sort-select">
+        <option value="added-desc">最新添加</option>
+        <option value="added-asc">最早添加</option>
+        <option value="year-desc">年份最新</option>
+        <option value="year-asc">年份最早</option>
+        <option value="title">标题 A-Z</option>
+      </select>
+      <button class="add-btn" onclick="openModal()">＋ 添加文献</button>
+    </div>
+
+    <!-- Result Info -->
+    <div class="result-info" id="result-info"></div>
+
+    <!-- Cards -->
+    <div id="cards-container"></div>
+
+  </main>
+</div>
+
+<!-- ══ ADD MODAL ══ -->
+<div class="modal-overlay" id="modal" onclick="handleOverlayClick(event)">
+  <div class="modal">
+    <div class="modal-header">
+      <span class="modal-title" id="modal-title">📄 添加新文献</span>
+      <button class="modal-close" onclick="closeModal()">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="form-group">
+        <label class="form-label">论文标题<span>*</span></label>
+        <input class="form-input" id="f-title" placeholder="请输入论文完整标题" />
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">第一作者<span>*</span></label>
+          <input class="form-input" id="f-author" placeholder="如：Zhang et al." />
+        </div>
+        <div class="form-group">
+          <label class="form-label">发表年份<span>*</span></label>
+          <input class="form-input" id="f-year" type="number" placeholder="如：2024" min="1900" max="2099" />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">期刊 / 会议</label>
+          <input class="form-input" id="f-journal" placeholder="如：Nature, CVPR 2024" />
+        </div>
+        <div class="form-group">
+          <label class="form-label">引用次数</label>
+          <input class="form-input" id="f-citations" type="number" placeholder="如：128" min="0" />
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">摘要 / 核心内容</label>
+        <textarea class="form-textarea" id="f-abstract" placeholder="粘贴摘要，或简要描述论文核心贡献…"></textarea>
+      </div>
+      <div class="form-group">
+        <label class="form-label">研究主题标签</label>
+        <input class="form-input" id="f-tags" placeholder="用逗号分隔，如：机器学习, 图神经网络, NLP" />
+        <div class="form-hint">多个标签用中文逗号「，」或英文逗号「,」隔开</div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">DOI / 链接</label>
+        <input class="form-input" id="f-doi" placeholder="如：https://doi.org/10.xxxx" />
+      </div>
+      <div class="form-group">
+        <label class="form-label">个人笔记</label>
+        <textarea class="form-textarea" id="f-notes" placeholder="记录你的阅读心得、与本研究的关联…"></textarea>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn-cancel" onclick="closeModal()">取消</button>
+      <button class="btn-save" onclick="savePaper()">保存文献</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── DATA ──────────────────────────────────────────────────────────────
+const STORAGE_KEY = 'research_library_v1';
+let papers = [];
+let editingId = null;
+
+// Active filters
+let activeTag = null;
+let activeYear = null;
+
+function loadData() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    papers = raw ? JSON.parse(raw) : [];
+  } catch(e) { papers = []; }
+}
+
+function saveData() {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(papers));
+}
+
+// ── HELPERS ───────────────────────────────────────────────────────────
+function uid() { return Date.now().toString(36) + Math.random().toString(36).slice(2); }
+
+function parseTags(str) {
+  return str.split(/[,，]/).map(t => t.trim()).filter(Boolean);
+}
+
+function escapeHtml(str) {
+  if (!str) return '';
+  return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function highlight(text, query) {
+  if (!query || !text) return escapeHtml(text);
+  const escaped = escapeHtml(text);
+  const safeQ = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return escaped.replace(new RegExp(safeQ, 'gi'), m => `<mark>${m}</mark>`);
+}
+
+// ── FILTERS & RENDER ──────────────────────────────────────────────────
+function getFilteredPapers() {
+  const query = document.getElementById('search-input').value.trim().toLowerCase();
+  const sort  = document.getElementById('sort-select').value;
+
+  let result = papers.filter(p => {
+    const matchTag  = !activeTag  || p.tags.includes(activeTag);
+    const matchYear = !activeYear || String(p.year) === String(activeYear);
+    if (!matchTag || !matchYear) return false;
+    if (!query) return true;
+    return (
+      (p.title   || '').toLowerCase().includes(query) ||
+      (p.author  || '').toLowerCase().includes(query) ||
+      (p.journal || '').toLowerCase().includes(query) ||
+      (p.abstract|| '').toLowerCase().includes(query) ||
+      (p.notes   || '').toLowerCase().includes(query) ||
+      (p.tags    || []).some(t => t.toLowerCase().includes(query))
+    );
+  });
+
+  result.sort((a, b) => {
+    if (sort === 'added-desc') return b.addedAt - a.addedAt;
+    if (sort === 'added-asc')  return a.addedAt - b.addedAt;
+    if (sort === 'year-desc')  return (b.year||0) - (a.year||0);
+    if (sort === 'year-asc')   return (a.year||0) - (b.year||0);
+    if (sort === 'title')      return (a.title||'').localeCompare(b.title||'');
+    return 0;
+  });
+
+  return result;
+}
+
+function getAllTags() {
+  const map = {};
+  papers.forEach(p => (p.tags||[]).forEach(t => { map[t] = (map[t]||0)+1; }));
+  return map;
+}
+
+function getAllYears() {
+  const map = {};
+  papers.forEach(p => { if(p.year) map[p.year] = (map[p.year]||0)+1; });
+  return map;
+}
+
+function renderSidebar() {
+  const tags  = getAllTags();
+  const years = getAllYears();
+
+  // Tags
+  const tagListEl = document.getElementById('tag-list');
+  const allTagBtn = `<button class="tag-filter-btn ${!activeTag?'active':''}" onclick="filterTag(null)">
+    全部主题 <span class="tag-count">${papers.length}</span>
+  </button>`;
+  const tagBtns = Object.entries(tags).sort((a,b)=>b[1]-a[1]).map(([t,c])=>
+    `<button class="tag-filter-btn ${activeTag===t?'active':''}" onclick="filterTag('${escapeHtml(t)}')">
+      ${escapeHtml(t)} <span class="tag-count">${c}</span>
+    </button>`
+  ).join('');
+  tagListEl.innerHTML = allTagBtn + tagBtns;
+
+  // Years
+  const yearListEl = document.getElementById('year-list');
+  const allYearBtn = `<button class="year-btn ${!activeYear?'active':''}" onclick="filterYear(null)">
+    全部年份 <span class="tag-count">${papers.length}</span>
+  </button>`;
+  const yearBtns = Object.entries(years).sort((a,b)=>b[0]-a[0]).map(([y,c])=>
+    `<button class="year-btn ${activeYear===y?'active':''}" onclick="filterYear('${y}')">
+      ${y}年 <span class="tag-count">${c}</span>
+    </button>`
+  ).join('');
+  yearListEl.innerHTML = allYearBtn + yearBtns;
+
+  // Stats
+  document.getElementById('stat-total').textContent = papers.length;
+  document.getElementById('stat-tags').textContent  = Object.keys(tags).length;
+  document.getElementById('stat-years').textContent = Object.keys(years).length;
+}
+
+function renderCards() {
+  const filtered = getFilteredPapers();
+  const query    = document.getElementById('search-input').value.trim();
+  const container = document.getElementById('cards-container');
+  const infoEl   = document.getElementById('result-info');
+
+  // Result info
+  if (query || activeTag || activeYear) {
+    const filters = [];
+    if (query)      filters.push(`"${query}"`);
+    if (activeTag)  filters.push(`主题：${activeTag}`);
+    if (activeYear) filters.push(`年份：${activeYear}`);
+    infoEl.innerHTML = `找到 <strong>${filtered.length}</strong> 篇文献（筛选：${filters.join(' + ')}）
+      <button class="clear-filter" onclick="clearFilters()">清除筛选</button>`;
+  } else {
+    infoEl.innerHTML = papers.length ? `共 <strong>${papers.length}</strong> 篇文献` : '';
+  }
+
+  if (papers.length === 0) {
+    container.innerHTML = `<div class="empty-state">
+      <div class="empty-icon">📚</div>
+      <div class="empty-text">还没有任何文献</div>
+      <div class="empty-sub">点击右上角「＋ 添加文献」开始建立你的文献库</div>
+    </div>`;
+    return;
+  }
+
+  if (filtered.length === 0) {
+    container.innerHTML = `<div class="empty-state">
+      <div class="empty-icon">🔍</div>
+      <div class="empty-text">未找到匹配文献</div>
+      <div class="empty-sub">尝试其他关键词，或清除筛选条件</div>
+    </div>`;
+    return;
+  }
+
+  container.innerHTML = filtered.map(p => renderCard(p, query)).join('');
+}
+
+function renderCard(p, query) {
+  const tags = (p.tags||[]).map(t =>
+    `<span class="tag" onclick="filterTag('${escapeHtml(t)}')">${highlight(t, query)}</span>`
+  ).join('');
+
+  const doiHtml = p.doi
+    ? `<a class="doi-link" href="${escapeHtml(p.doi)}" target="_blank">🔗 原文链接</a>`
+    : '<span></span>';
+
+  const citHtml = p.citations
+    ? `<span class="meta-item">📊 引用 ${p.citations} 次</span>` : '';
+
+  const addedDate = p.addedAt
+    ? new Date(p.addedAt).toLocaleDateString('zh-CN') : '';
+
+  return `<div class="paper-card" id="card-${p.id}">
+    <div class="paper-top">
+      <div class="paper-title">${highlight(p.title||'（无标题）', query)}</div>
+      <div class="paper-actions">
+        <button class="action-btn" onclick="toggleNotes('${p.id}')">📝 笔记</button>
+        <button class="action-btn" onclick="editPaper('${p.id}')">✏️ 编辑</button>
+        <button class="action-btn delete" onclick="deletePaper('${p.id}')">🗑</button>
+      </div>
+    </div>
+    <div class="paper-meta">
+      ${p.author ? `<span class="meta-item">👤 ${highlight(p.author, query)}</span>` : ''}
+      ${p.year   ? `<span class="meta-item">📅 ${p.year}年</span>` : ''}
+      ${p.journal? `<span class="meta-item">📖 ${highlight(p.journal, query)}</span>` : ''}
+      ${citHtml}
+      ${addedDate ? `<span class="meta-item" style="color:#b0bec5;font-size:12px">录入 ${addedDate}</span>` : ''}
+    </div>
+    ${p.abstract ? `
+    <div class="paper-abstract" id="abs-${p.id}">${highlight(p.abstract, query)}</div>
+    <button class="expand-btn" id="exp-${p.id}" onclick="toggleAbstract('${p.id}')">展开摘要 ▾</button>
+    ` : ''}
+    ${(p.tags&&p.tags.length) ? `<div class="paper-tags">${tags}</div>` : ''}
+    <div class="paper-footer">
+      ${doiHtml}
+    </div>
+    ${p.notes ? `
+    <textarea class="notes-area" id="notes-${p.id}" onblur="saveNotes('${p.id}', this.value)">${escapeHtml(p.notes)}</textarea>
+    ` : `<textarea class="notes-area" id="notes-${p.id}" placeholder="在此记录笔记…" onblur="saveNotes('${p.id}', this.value)"></textarea>`}
+  </div>`;
+}
+
+function render() {
+  renderSidebar();
+  renderCards();
+}
+
+// ── INTERACTIONS ──────────────────────────────────────────────────────
+function filterTag(tag) {
+  activeTag = tag;
+  render();
+}
+
+function filterYear(year) {
+  activeYear = year;
+  render();
+}
+
+function clearFilters() {
+  activeTag = null;
+  activeYear = null;
+  document.getElementById('search-input').value = '';
+  render();
+}
+
+function toggleAbstract(id) {
+  const el  = document.getElementById(`abs-${id}`);
+  const btn = document.getElementById(`exp-${id}`);
+  if (!el) return;
+  el.classList.toggle('expanded');
+  btn.textContent = el.classList.contains('expanded') ? '收起摘要 ▴' : '展开摘要 ▾';
+}
+
+function toggleNotes(id) {
+  const el = document.getElementById(`notes-${id}`);
+  if (!el) return;
+  el.classList.toggle('show');
+  if (el.classList.contains('show')) el.focus();
+}
+
+function saveNotes(id, value) {
+  const p = papers.find(x => x.id === id);
+  if (!p) return;
+  p.notes = value;
+  saveData();
+}
+
+// ── MODAL ─────────────────────────────────────────────────────────────
+function openModal(id) {
+  editingId = id || null;
+  const modal = document.getElementById('modal');
+  const title = document.getElementById('modal-title');
+
+  if (id) {
+    const p = papers.find(x => x.id === id);
+    if (!p) return;
+    title.textContent = '✏️ 编辑文献';
+    document.getElementById('f-title').value    = p.title    || '';
+    document.getElementById('f-author').value   = p.author   || '';
+    document.getElementById('f-year').value     = p.year     || '';
+    document.getElementById('f-journal').value  = p.journal  || '';
+    document.getElementById('f-citations').value= p.citations|| '';
+    document.getElementById('f-abstract').value = p.abstract || '';
+    document.getElementById('f-tags').value     = (p.tags||[]).join('，');
+    document.getElementById('f-doi').value      = p.doi      || '';
+    document.getElementById('f-notes').value    = p.notes    || '';
+  } else {
+    title.textContent = '📄 添加新文献';
+    ['f-title','f-author','f-year','f-journal','f-citations','f-abstract','f-tags','f-doi','f-notes']
+      .forEach(id => document.getElementById(id).value = '');
+  }
+  modal.classList.add('show');
+}
+
+function closeModal() {
+  document.getElementById('modal').classList.remove('show');
+  editingId = null;
+}
+
+function handleOverlayClick(e) {
+  if (e.target === document.getElementById('modal')) closeModal();
+}
+
+function savePaper() {
+  const title = document.getElementById('f-title').value.trim();
+  const author = document.getElementById('f-author').value.trim();
+  const year   = document.getElementById('f-year').value.trim();
+  if (!title || !author || !year) {
+    alert('请至少填写标题、作者和年份');
+    return;
+  }
+
+  const data = {
+    title,
+    author,
+    year:      parseInt(year),
+    journal:   document.getElementById('f-journal').value.trim(),
+    citations: parseInt(document.getElementById('f-citations').value)||0,
+    abstract:  document.getElementById('f-abstract').value.trim(),
+    tags:      parseTags(document.getElementById('f-tags').value),
+    doi:       document.getElementById('f-doi').value.trim(),
+    notes:     document.getElementById('f-notes').value.trim(),
+  };
+
+  if (editingId) {
+    const idx = papers.findIndex(x => x.id === editingId);
+    if (idx !== -1) papers[idx] = { ...papers[idx], ...data };
+  } else {
+    papers.unshift({ id: uid(), addedAt: Date.now(), ...data });
+  }
+
+  saveData();
+  closeModal();
+  render();
+}
+
+function editPaper(id) { openModal(id); }
+
+function deletePaper(id) {
+  const p = papers.find(x => x.id === id);
+  if (!p) return;
+  if (!confirm(`确认删除文献《${p.title}》？此操作不可撤销。`)) return;
+  papers = papers.filter(x => x.id !== id);
+  saveData();
+  render();
+}
+
+// ── INIT ──────────────────────────────────────────────────────────────
+document.getElementById('search-input').addEventListener('input', () => renderCards());
+document.getElementById('sort-select').addEventListener('change', () => renderCards());
+
+loadData();
+render();
+</script>
+</body>
+</html>
