@@ -1,20 +1,21 @@
 #!/usr/bin/env python3
 """
-Daily script: fetch today's research papers from agent-for-news → append to papers.json
+One-time backfill: fetch all historical research papers from agent-for-news
 """
 
 import json
 import re
 import requests
-import sys
 from datetime import date, timedelta
 from pathlib import Path
+from html.parser import HTMLParser
 
 SOURCE_BASE = "https://gracieme.github.io/agent-for-news/data"
 PAPERS_FILE = Path(__file__).parent.parent / "docs" / "papers.json"
 
 
 def strip_tags(html):
+    """Remove HTML tags and decode entities."""
     text = re.sub(r'<[^>]+>', '', html or '')
     text = text.replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>') \
                .replace('&quot;', '"').replace('&#39;', "'").replace('&nbsp;', ' ')
@@ -22,17 +23,28 @@ def strip_tags(html):
 
 
 def parse_research_html(html):
+    """Parse the research HTML into a list of paper dicts."""
     if not html or not isinstance(html, str):
         return []
 
     papers = []
-    card_pattern = re.compile(r'📄\s*论文\s*\d+.*?(?=📄\s*论文\s*\d+|$)', re.DOTALL)
+
+    # Split by paper card (each paper starts with 📄 论文)
+    # Cards are wrapped in divs with the gradient header
+    card_pattern = re.compile(
+        r'📄\s*论文\s*\d+.*?(?=📄\s*论文\s*\d+|$)',
+        re.DOTALL
+    )
     cards = card_pattern.findall(html)
+
+    # Fallback: if no cards found, treat entire html as one card
     if not cards:
         cards = [html]
 
     def extract_field(card_html, *labels):
+        """Extract text after any of the given label emojis."""
         for label in labels:
+            # Match label cell followed by value cell
             pattern = re.compile(
                 re.escape(label) + r'.*?</td>\s*<td[^>]*>(.*?)</td>',
                 re.DOTALL | re.IGNORECASE
@@ -43,6 +55,7 @@ def parse_research_html(html):
         return ''
 
     def extract_doi(card_html):
+        """Extract DOI/URL from anchor tag."""
         m = re.search(r'href=["\']([^"\']+)["\']', card_html)
         if m:
             href = m.group(1)
@@ -60,11 +73,13 @@ def parse_research_html(html):
         relevance = extract_field(card, '🔗 与本研究的关联性：', '与本研究的关联性：', '关联性：')
         doi = extract_doi(card)
 
+        # Parse citations (e.g. "10 次" → 10)
         citations = 0
         m = re.search(r'(\d+)', citations_str)
         if m:
             citations = int(m.group(1))
 
+        # Parse year
         year = 0
         m = re.search(r'(19|20)\d{2}', year_str)
         if m:
@@ -87,20 +102,18 @@ def parse_research_html(html):
     return papers
 
 
-def fetch_daily(date_str):
+def fetch(date_str):
     url = f"{SOURCE_BASE}/{date_str}.json"
-    print(f"Fetching: {url}")
     try:
-        r = requests.get(url, timeout=15)
+        r = requests.get(url, timeout=10)
         if r.status_code == 200:
             return r.json()
-        print(f"  Not found (HTTP {r.status_code})")
     except Exception as e:
-        print(f"  Error: {e}")
+        pass
     return None
 
 
-def load_existing():
+def load():
     if PAPERS_FILE.exists():
         with open(PAPERS_FILE, "r", encoding="utf-8") as f:
             return json.load(f)
@@ -123,37 +136,38 @@ def save(papers):
         json.dump(papers, f, ensure_ascii=False, indent=2)
 
 
-def main():
-    today = date.today().strftime("%Y-%m-%d")
-    data = fetch_daily(today)
-    if data is None:
-        yesterday = (date.today() - timedelta(days=1)).strftime("%Y-%m-%d")
-        data = fetch_daily(yesterday)
+# ── Main ──────────────────────────────────────────────────────────────
+existing = load()
+total_added = 0
+today = date.today()
 
-    if data is None:
-        print("No data found. Exiting.")
-        sys.exit(0)
+for i in range(90):
+    d = today - timedelta(days=i)
+    date_str = d.strftime("%Y-%m-%d")
+    data = fetch(date_str)
+    if not data:
+        continue
 
-    new_papers = parse_research_html(data.get("research", ""))
+    research_html = data.get("research", "")
+    new_papers = parse_research_html(research_html)
+
     if not new_papers:
-        print("No papers parsed today.")
-        sys.exit(0)
+        continue
 
-    existing = load_existing()
     added = 0
     for j, paper in enumerate(new_papers):
         if is_dup(paper, existing):
-            print(f"  Skip (duplicate): {paper.get('title','')[:60]}")
             continue
-        paper["added_date"] = today
-        paper["id"] = f"{today}-{j}"
-        existing.insert(0, paper)
+        paper["added_date"] = date_str
+        paper["id"] = f"{date_str}-{j}"
+        existing.append(paper)
         added += 1
-        print(f"  Added: {paper.get('title','')[:60]}")
+        total_added += 1
 
-    save(existing)
-    print(f"\nDone. Added {added} new paper(s). Total: {len(existing)}")
+    if added:
+        print(f"{date_str}: +{added} papers (e.g. '{new_papers[0]['title'][:50]}…')")
 
-
-if __name__ == "__main__":
-    main()
+# Sort newest first
+existing.sort(key=lambda p: p.get("added_date", ""), reverse=True)
+save(existing)
+print(f"\n✅ Done! Added: {total_added}, Total in library: {len(existing)}")
