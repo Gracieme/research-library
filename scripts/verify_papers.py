@@ -2,16 +2,17 @@
 """
 Verify papers in papers.json by checking that their DOIs resolve correctly.
 Removes papers whose DOIs return 404 or are scholar.google.com links.
-Outputs a summary and exits with code 1 if any papers were removed.
+Papers that time out or have connection errors are flagged but NOT removed
+(to avoid false positives from transient network issues).
 """
 
 import json
-import re
 import sys
 import time
 from pathlib import Path
 
 import requests
+from requests.exceptions import ConnectionError, Timeout, RequestException
 
 PAPERS_FILE = Path(__file__).parent.parent / "docs" / "papers.json"
 REMOVED_FILE = Path(__file__).parent.parent / "docs" / "removed_papers.json"
@@ -27,36 +28,43 @@ def is_suspicious_doi(doi: str) -> bool:
     return "scholar.google.com" in doi
 
 
-def check_doi(doi: str) -> tuple[bool, str]:
+def check_doi(doi: str) -> tuple[str, str]:
     """
-    Returns (is_valid, reason).
-    A DOI is valid if it redirects/resolves without a 404.
+    Returns (status, reason) where status is 'valid', 'invalid', or 'unknown'.
+    - 'invalid': definitively fake (404 or scholar.google proxy)
+    - 'unknown': could not verify due to network issues (do not remove)
+    - 'valid': DOI resolves successfully
     """
     if not doi or not doi.startswith("http"):
-        return False, "no valid DOI URL"
+        return "invalid", "no valid DOI URL"
 
     if is_suspicious_doi(doi):
-        return False, "uses scholar.google.com proxy instead of real DOI"
+        return "invalid", "uses scholar.google.com proxy instead of real DOI"
 
     try:
         r = requests.head(doi, headers=HEADERS, timeout=TIMEOUT,
                           allow_redirects=True)
         if r.status_code == 404:
-            return False, f"DOI returns 404"
-        if r.status_code == 405:
-            # Some servers reject HEAD; try GET
-            r = requests.get(doi, headers=HEADERS, timeout=TIMEOUT,
-                             allow_redirects=True, stream=True)
-            r.close()
-            if r.status_code == 404:
-                return False, f"DOI returns 404"
-        return True, f"OK ({r.status_code})"
-    except requests.exceptions.ConnectionError:
-        return False, "connection error"
-    except requests.exceptions.Timeout:
-        return False, "timeout"
+            return "invalid", "DOI returns 404"
+        if r.status_code in (405, 403):
+            # Server rejected HEAD; try a GET but only read a tiny bit
+            try:
+                r2 = requests.get(doi, headers=HEADERS, timeout=TIMEOUT,
+                                  allow_redirects=True)
+                if r2.status_code == 404:
+                    return "invalid", "DOI returns 404"
+                return "valid", f"OK ({r2.status_code})"
+            except Exception:
+                # If GET also fails, treat as unknown (don't remove)
+                return "unknown", "HEAD rejected, GET also failed"
+        return "valid", f"OK ({r.status_code})"
+
+    except (ConnectionError, Timeout) as e:
+        return "unknown", f"network error: {type(e).__name__}"
+    except RequestException as e:
+        return "unknown", f"request error: {type(e).__name__}"
     except Exception as e:
-        return False, f"error: {e}"
+        return "unknown", f"unexpected error: {type(e).__name__}"
 
 
 def load_removed() -> list:
@@ -79,24 +87,33 @@ def main():
 
     valid = []
     removed = []
+    unknown = []
 
     for paper in papers:
         title = paper.get("title", "")[:70]
         doi = paper.get("doi", "")
-        ok, reason = check_doi(doi)
-        status = "✅" if ok else "❌"
-        print(f"{status} [{paper.get('id', '?')}] {title}")
-        if not ok:
+        status, reason = check_doi(doi)
+
+        if status == "valid":
+            print(f"✅ [{paper.get('id', '?')}] {title}")
+            valid.append(paper)
+        elif status == "invalid":
+            print(f"❌ [{paper.get('id', '?')}] {title}")
             print(f"   Reason: {reason}")
             paper["removed_reason"] = reason
             removed.append(paper)
         else:
+            print(f"⚠️  [{paper.get('id', '?')}] {title}")
+            print(f"   Could not verify: {reason} (kept)")
             valid.append(paper)
+            unknown.append(paper)
+
         time.sleep(1)  # be polite to servers
 
     print(f"\n--- Summary ---")
-    print(f"Valid:   {len(valid)}")
-    print(f"Removed: {len(removed)}")
+    print(f"Valid:       {len(valid)}")
+    print(f"Removed:     {len(removed)}")
+    print(f"Unverified:  {len(unknown)} (kept, network issues)")
 
     if removed:
         save_json(PAPERS_FILE, valid)
