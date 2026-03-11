@@ -53,7 +53,7 @@
     "journal": "Modern Language Journal",
     "year": 2024,
     "citations": 54,
-    "abstract": "The COVID-19 pandemic, necessitating remote instruction in the vast majority of educational institutions around the world, put technology squarely at the center of language learning and teaching. Virtually all teaching and learning was mediated by Zoom or similar videoconferencing platforms. Students could see one another&#x27;s faces (rather than the backs of their peers’ heads), but they could also c…",
+    "abstract": "The COVID-19 pandemic, necessitating remote instruction in the vast majority of educational institutions around the world, put technology squarely at the center of language learning and teaching. Virtually all teaching and learning was mediated by Zoom or similar videoconferencing platforms. Students could see one another&#x27;s faces (rather than the backs of their peers' heads), but they could also c…",
     "relevance": "这篇论文探讨21世纪技术（尤其是疫情期间远程教学工具）如何中介语言学习与教学，与方向二（课堂互动与中介）相关，因为视频会议平台上的聊天窗口、分组讨论室等功能重塑了同伴互动模式和课堂话语参与方式，涉及技术如何作为新的中介工具影响语言相关片段（LRE）的产生与协商。此外，技术驱动的教学变革也关涉方向三中教师在制度性转型压力下的情感劳动与脆弱性，因为大规模远程",
     "doi": "https://doi.org/10.1111/modl.12924",
     "added_date": "2026-03-10",
@@ -70,41 +70,5 @@
     "doi": "https://doi.org/10.1007/s11165-021-10018-6",
     "added_date": "2026-03-10",
     "id": "2026-03-10-2"
-  },
-  {
-    "title": "Language Testing and Policy: Expanding the Notion of Washback",
-    "author": "Elana Shohamy",
-    "journal": "Language Testing",
-    "year": 2023,
-    "citations": 15,
-    "abstract": "This article revisits and expands the concept of washback in language testing by drawing on critical language testing frameworks and the notion of language policy as mechanism. Shohamy argues that washback should not be studied merely as the effect of tests on teaching and learning, but should be understood as a broader sociopolitical phenomenon through which tests function as de facto language policies, shaping language ideologies, linguistic hierarchies, and access to resources. The paper examines how high-stakes assessments perpetuate certain language norms while marginalizing others, and calls for a reconceptualization that incorporates power dynamics, critical discourse analysis, and the epistemic consequences of test-driven policy. Case studies from multilingual educational contexts illustrate how standardized tests create metalinguistic asymmetries between dominant and non-dominant language varieties.",
-    "relevance": "该论文将washback从传统的教学反拨效应拓展至语言权力与政策层面，与您研究AP Chinese考试如何通过评估机制建构metalinguistic asymmetry高度契合。Shohamy对\"测试即隐性语言政策\"的论述为您分析AP Chinese作为权力工具提供了直接的理论支撑，同时其对CDA方法论的呼吁与您的研究方法形成共鸣。",
-    "doi": "https://scholar.google.com/scholar?q=10.1177/02655322231183942",
-    "added_date": "2026-03-09",
-    "id": "2026-03-09-0"
-  },
-  {
-    "title": "Epistemic Injustice in Language Education: Centering Racialized Multilingual Learners&#x27; Knowledge",
-    "author": "Rachel Leung & Manka M. Varghese",
-    "journal": "TESOL Quarterly",
-    "year": 2024,
-    "citations": 8,
-    "abstract": "This article applies Miranda Fricker&#x27;s framework of epistemic injustice—specifically testimonial and hermeneutical injustice—to the field of language education. The authors argue that racialized multilingual learners routinely experience epistemic marginalization when their linguistic knowledge, metalinguistic awareness, and communicative competencies are rendered illegible by institutional assessment practices and classroom norms rooted in monolingual, standard-language ideologies. Drawing on qualitative data from interviews and classroom observations in U.S. secondary schools, the study documents how heritage language speakers are positioned as deficient knowers despite possessing rich linguistic repertoires. The paper proposes an \"epistemic justice\" orientation for language pedagogy and assessment design that validates diverse ways of knowing and speaking.",
-    "relevance": "该论文直接将epistemic injustice和hermeneutical injustice应用于语言教育领域，与您研究AP Chinese中传统语言学知识被制度化评估边缘化的现象形成核心对话。其对heritage language speakers在标准化评估中被定位为\"deficient knowers\"的分析，可直接启发您对AP Chinese考生——尤其是华裔传承语使用者——所经历的认识论不公的批判性讨论。",
-    "doi": "https://scholar.google.com/scholar?q=10.1002/tesq.3296",
-    "added_date": "2026-03-09",
-    "id": "2026-03-09-1"
-  },
-  {
-    "title": "Translanguaging as Mediation in Content-Based Classrooms: Emergent Bilinguals&#x27; Collaborative Reasoning",
-    "author": "Zhongfeng Tian & Ofelia García",
-    "journal": "The Modern Language Journal",
-    "year": 2023,
-    "citations": 20,
-    "abstract": "This study investigates how translanguaging functions as a mediational tool during peer interaction in content-based instruction (CBI) classrooms serving emergent bilingual students in a Mandarin-English dual language program. Drawing on Vygotskian sociocultural theory and translanguaging theory, the authors analyze video-recorded small-group interactions using a microgenetic approach, focusing on language-related episodes (LREs) and negotiation of meaning (NoM) sequences. Findings reveal that students strategically deployed their full linguistic repertoires—including Mandarin, English, and hybrid forms—to co-construct content knowledge, resolve lexical gaps, and scaffold each other&#x27;s understanding. The study argues that translanguaging-mediated peer interaction creates a more equitable mediational architecture in which novice-level learners can participate as legitimate contributors to knowledge-building.",
-    "relevance": "该论文将translanguaging与peer interaction、LRE、NoM等核心概念结合，在Mandarin-English双语项目中展开实证研究，与您研究方向二的CSL课堂互动与中介高度吻合。其对mediational architecture的讨论以及对novice-level学习者如何通过translanguaging实现合法性参与的分析，可为您的MICM框架和novice-high群体研究提供直接的方法论与理论参照。",
-    "doi": "https://scholar.google.com/scholar?q=10.1111/modl.12870",
-    "added_date": "2026-03-09",
-    "id": "2026-03-09-2"
   }
 ]
