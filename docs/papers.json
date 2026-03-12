@@ -1,5 +1,41 @@
 [
   {
+    "title": "Conceptualisations of critical thinking in academic writing at a master’s level",
+    "author": "Andrew Gordon Drybrough",
+    "journal": "ERA",
+    "year": 2019,
+    "citations": 0,
+    "abstract": "Critical thinking is often considered to involve a set of skills required by graduates of higher educational institutions in the UK. However, the conceptualisation of critical thinking by university tutors varies across disciplines and is not always particularly clear. In a UK higher educational context where proportionally increasing numbers of postgraduate students are international, often from …",
+    "relevance": "这篇论文探讨高等教育中批判性思维的概念化及其在不同学科、不同文化背景学生间的理解差异，与用户的研究有一定间接关联。首先，它涉及学术评估标准（如导师对\"批判性思维\"的界定）如何因学科和文化而异，这与方向一中评估中的认识论不公正（epistemic injustice）相呼应——当国际学生的批判性思维传统不被认可或被边缘化时，可能构成一种知识权力的不对等。其次，论文关注不同教育传统背景的学生与导师之间的理解落差，这",
+    "doi": "https://scholar.google.com/scholar?q=Conceptualisations%20of%20critical%20thinking%20in%20academic%20writing%20at%20a%20master%E2%80%99s%20level",
+    "added_date": "2026-03-12",
+    "id": "2026-03-12-2"
+  },
+  {
+    "title": "From Validity to Equity: Revisiting CET-4 Through Messick, Kane, and Paraskeva’s Frameworks",
+    "author": "Zhi Ma",
+    "journal": "International Journal of Language and Linguistics",
+    "year": 2025,
+    "citations": 0,
+    "abstract": "The College English Test Band 4 (CET-4) is a high-stakes, standardised English proficiency assessment widely administered in Chinese universities. Initially developed to evaluate non-English majors’ language competence, it has since evolved into a gatekeeping mechanism that influences graduation eligibility, access to scholarships, postgraduate admissions, and employment opportunities. As English …",
+    "relevance": "该论文与用户【方向一】高度相关。首先，它聚焦于高利害标准化英语考试（CET-4）的效度与公平性问题，直接呼应用户对assessment及其权力功能的关注；其次，论文运用Messick、Kane等效度框架并引入Paraskeva的公平视角，对考试作为\"守门机制\"（gatekeeping mechanism）的社会后果进行批判性审视，与用户关注的epistemic injustice和washback效应密切相关。此外，对考试如何影响不同学习者群体的公平评估问题的探讨，也可与CDA视角下语言测试中权力再生产的",
+    "doi": "https://doi.org/10.11648/j.ijll.20251303.14",
+    "added_date": "2026-03-12",
+    "id": "2026-03-12-1"
+  },
+  {
+    "title": "Critical Thinking Dispositions of Undergraduate College Students in A Comprehensive University of Mainland China",
+    "author": "Huarong Ma",
+    "journal": "International Journal of Higher Education",
+    "year": 2021,
+    "citations": 4,
+    "abstract": "This study was undertaken to assess the critical thinking dispositions of undergraduate college students in a comprehensive university of mainland China and examine the roles of gender and major in the subjects’ critical thinking dispositions. An adapted Chinese version of the California Critical Thinking Dispositions Inventory (CCTDI) was used to survey 534 undergraduate students. Statistics reve…",
+    "relevance": "该研究关注中国大陆本科生的批判性思维倾向评估，使用标准化量表（CCTDI改编版）进行测量，与【方向一】中assessment（评估）的主题有间接关联，尤其是在评估工具如何衡量学生认知能力与倾向方面。此外，研究揭示了中国高等教育语境下学生批判性思维普遍偏弱的现象，可为探讨教育制度与考试文化（如washback效应）对学生思维发展的影响提供背景参考，但该文并未直接涉及语言评估、语言权力或课堂互动等核心议题，",
+    "doi": "https://doi.org/10.5430/ijhe.v10n6p224",
+    "added_date": "2026-03-12",
+    "id": "2026-03-12-0"
+  },
+  {
     "title": "From classroom learning to real-world skills: an autoethnographic account of school field trips and STEM work immersion program management",
     "author": "Dharel P. Acut",
     "journal": "Disciplinary and Interdisciplinary Science Education Research",
