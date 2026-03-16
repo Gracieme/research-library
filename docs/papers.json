@@ -1,29 +1,5 @@
 [
   {
-    "title": "Critical Thinking Dispositions of Undergraduate College Students in A Comprehensive University of Mainland China",
-    "author": "Huarong Ma",
-    "journal": "International Journal of Higher Education",
-    "year": 2021,
-    "citations": 5,
-    "abstract": "This study was undertaken to assess the critical thinking dispositions of undergraduate college students in a comprehensive university of mainland China and examine the roles of gender and major in the subjects’ critical thinking dispositions. An adapted Chinese version of the California Critical Thinking Dispositions Inventory (CCTDI) was used to survey 534 undergraduate students. Statistics reve…",
-    "relevance": "该研究关注中国大陆大学生批判性思维倾向的评估，与方向一中\"assessment\"（评估）主题存在方法论层面的关联，均涉及通过标准化工具衡量学习者的认知与能力特征。此外，研究揭示了中国高等教育语境下学生批判性思维倾向偏低的现象，这在一定程度上可与方向一中\"epistemic injustice\"（认识不公正）相呼应，即特定教育体制与文化环境可能限制了学生批判性思维的发展，引发对知识生产与权力关系的反思。不过，该研究并未直接涉",
-    "doi": "https://doi.org/10.5430/ijhe.v10n6p224",
-    "added_date": "2026-03-15",
-    "id": "2026-03-15-0"
-  },
-  {
-    "title": "From Validity to Equity: Revisiting CET-4 Through Messick, Kane, and Paraskeva’s Frameworks",
-    "author": "Zhi Ma",
-    "journal": "International Journal of Language and Linguistics",
-    "year": 2025,
-    "citations": 0,
-    "abstract": "The College English Test Band 4 (CET-4) is a high-stakes, standardised English proficiency assessment widely administered in Chinese universities. Initially developed to evaluate non-English majors’ language competence, it has since evolved into a gatekeeping mechanism that influences graduation eligibility, access to scholarships, postgraduate admissions, and employment opportunities. As English …",
-    "relevance": "该论文与用户【方向一】高度相关。首先，它聚焦高风险标准化考试（CET-4）的效度与公平性问题，与用户关注的assessment及AP Chinese考试研究直接对应，均涉及大规模语言测试如何作为\"守门机制\"（gatekeeping mechanism）影响学习者的教育机会与社会流动。其次，论文运用Messick的效度框架、Kane的论证框架以及Paraskeva的批判性框架来审视测试公平性，这与用户研究中关注的epistemic injustice（认知不公正）和washback（反拨效应）议题密切呼应，尤其是测试",
-    "doi": "https://doi.org/10.11648/j.ijll.20251303.14",
-    "added_date": "2026-03-15",
-    "id": "2026-03-15-1"
-  },
-  {
     "title": "Conceptualisations of critical thinking in academic writing at a master’s level",
     "author": "Andrew Gordon Drybrough",
     "journal": "ERA",
@@ -34,6 +10,30 @@
     "doi": "https://scholar.google.com/scholar?q=Conceptualisations%20of%20critical%20thinking%20in%20academic%20writing%20at%20a%20master%E2%80%99s%20level",
     "added_date": "2026-03-15",
     "id": "2026-03-15-2"
+  },
+  {
+    "title": "From Validity to Equity: Revisiting CET-4 Through Messick, Kane, and Paraskeva’s Frameworks",
+    "author": "Zhi Ma",
+    "journal": "International Journal of Language and Linguistics",
+    "year": 2025,
+    "citations": 0,
+    "abstract": "The College English Test Band 4 (CET-4) is a high-stakes, standardised English proficiency assessment widely administered in Chinese universities. Initially developed to evaluate non-English majors’ language competence, it has since evolved into a gatekeeping mechanism that influences graduation eligibility, access to scholarships, postgraduate admissions, and employment opportunities. As English …",
+    "relevance": "该论文与用户【方向一】高度相关。首先，它聚焦于高利害标准化英语考试（CET-4）的效度与公平性问题，直接呼应用户对assessment及其权力功能的关注；其次，论文运用Messick、Kane等效度框架并引入Paraskeva的公平视角，对考试作为\"守门机制\"（gatekeeping mechanism）的社会后果进行批判性审视，与用户关注的epistemic injustice和washback效应密切相关。此外，对考试如何影响不同学习者群体的公平评估问题的探讨，也可与CDA视角下语言测试中权力再生产的",
+    "doi": "https://doi.org/10.11648/j.ijll.20251303.14",
+    "added_date": "2026-03-12",
+    "id": "2026-03-12-1"
+  },
+  {
+    "title": "Critical Thinking Dispositions of Undergraduate College Students in A Comprehensive University of Mainland China",
+    "author": "Huarong Ma",
+    "journal": "International Journal of Higher Education",
+    "year": 2021,
+    "citations": 4,
+    "abstract": "This study was undertaken to assess the critical thinking dispositions of undergraduate college students in a comprehensive university of mainland China and examine the roles of gender and major in the subjects’ critical thinking dispositions. An adapted Chinese version of the California Critical Thinking Dispositions Inventory (CCTDI) was used to survey 534 undergraduate students. Statistics reve…",
+    "relevance": "该研究关注中国大陆本科生的批判性思维倾向评估，使用标准化量表（CCTDI改编版）进行测量，与【方向一】中assessment（评估）的主题有间接关联，尤其是在评估工具如何衡量学生认知能力与倾向方面。此外，研究揭示了中国高等教育语境下学生批判性思维普遍偏弱的现象，可为探讨教育制度与考试文化（如washback效应）对学生思维发展的影响提供背景参考，但该文并未直接涉及语言评估、语言权力或课堂互动等核心议题，",
+    "doi": "https://doi.org/10.5430/ijhe.v10n6p224",
+    "added_date": "2026-03-12",
+    "id": "2026-03-12-0"
   },
   {
     "title": "From classroom learning to real-world skills: an autoethnographic account of school field trips and STEM work immersion program management",
@@ -89,7 +89,7 @@
     "journal": "Modern Language Journal",
     "year": 2024,
     "citations": 54,
-    "abstract": "The COVID-19 pandemic, necessitating remote instruction in the vast majority of educational institutions around the world, put technology squarely at the center of language learning and teaching. Virtually all teaching and learning was mediated by Zoom or similar videoconferencing platforms. Students could see one another&#x27;s faces (rather than the backs of their peers’ heads), but they could also c…",
+    "abstract": "The COVID-19 pandemic, necessitating remote instruction in the vast majority of educational institutions around the world, put technology squarely at the center of language learning and teaching. Virtually all teaching and learning was mediated by Zoom or similar videoconferencing platforms. Students could see one another&#x27;s faces (rather than the backs of their peers' heads), but they could also c…",
     "relevance": "这篇论文探讨21世纪技术（尤其是疫情期间远程教学工具）如何中介语言学习与教学，与方向二（课堂互动与中介）相关，因为视频会议平台上的聊天窗口、分组讨论室等功能重塑了同伴互动模式和课堂话语参与方式，涉及技术如何作为新的中介工具影响语言相关片段（LRE）的产生与协商。此外，技术驱动的教学变革也关涉方向三中教师在制度性转型压力下的情感劳动与脆弱性，因为大规模远程",
     "doi": "https://doi.org/10.1111/modl.12924",
     "added_date": "2026-03-10",
