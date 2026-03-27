@@ -1,5 +1,41 @@
 [
   {
+    "title": "A comprehensive AI policy education framework for university teaching and learning",
+    "author": "Cecilia Ka Yuk Chan",
+    "journal": "International Journal of Educational Technology in Higher Education",
+    "year": 2023,
+    "citations": 1048,
+    "abstract": "Abstract This study aims to develop an AI education policy for higher education by examining the perceptions and implications of text generative AI technologies. Data was collected from 457 students and 180 teachers and staff across various disciplines in Hong Kong universities, using both quantitative and qualitative research methods. Based on the findings, the study proposes an AI Ecological Edu…",
+    "relevance": "该论文聚焦高等教育中AI政策框架的构建，涉及教学法、治理等维度，与用户研究方向的直接关联较为有限。但其对教育政策与教学实践关系的探讨可为【方向三】中制度层面（如DLI政策、教师在制度变革中的角色与情感劳动）提供宏观政策分析的参照视角。此外，该研究对AI技术融入教学评估的讨论可能间接关联【方向一】中对评估公平性（如epistemic injustice）及评估反拨效应（washback）的思考，尤其是AI工具如何重塑语言评",
+    "doi": "https://doi.org/10.1186/s41239-023-00408-3",
+    "added_date": "2026-03-27",
+    "id": "2026-03-27-2"
+  },
+  {
+    "title": "A Blog-Mediated Curriculum for Teaching Academic Genres in an Urban Classroom: Second Grade ELL Students’ Emergent Pathways to Literacy Development",
+    "author": "Dong-shin Shin",
+    "journal": "ScholarWorks@UMassAmherst (University of Massachusetts Amherst)",
+    "year": 2022,
+    "citations": 6,
+    "abstract": "This dissertation examines the academic and social goals that three second-grade English language learners in a U.S. urban school bring to their blog-mediated academic writing practices, and the interrelated nature of those goals. This study aims to bridge the dichotomy between approaches to studying computer-mediated language and literacy development that are oriented toward academic goals inside…",
+    "relevance": "这篇论文与上述研究方向有以下关联：",
+    "doi": "https://doi.org/10.7275/1079029",
+    "added_date": "2026-03-27",
+    "id": "2026-03-27-1"
+  },
+  {
+    "title": "Thinking Like an Economist: How Efficiency Replaced Equality in U.S. Public Policy",
+    "author": "Abigail Orrick",
+    "journal": "Harvard Educational Review",
+    "year": 2022,
+    "citations": 103,
+    "abstract": "“The institution is run by an administration that prefers tranquility to equality, resisting the transformative changes necessary to address these critical issues” (Beyene et al., 2019). Three Master of Public Policy students at the Harvard Kennedy School made this bold declaration in the fall of 2019. Dismayed by a dearth of curricular focus on systemic racism and a lack of faculty and administra…",
+    "relevance": "这篇论文探讨了美国公共政策中\"效率\"话语如何取代\"公平\"话语，涉及制度性权力与意识形态对政策制定的塑造。这与用户方向一中的批评话语分析（CDA）和认知不公正（epistemic injustice）有关联，因为经济效率框架在政策话语中的霸权地位可被视为一种系统性的知识排斥，边缘化了种族平等等议题。此外，该论文对课程设置与制度变革的批判也与方向三中教师与制度层面的研究（如DLI项目中的制度性约束与教育公平议题）存",
+    "doi": "https://doi.org/10.17763/1943-5045-92.4.566a",
+    "added_date": "2026-03-27",
+    "id": "2026-03-27-0"
+  },
+  {
     "title": "From Validity to Equity: Revisiting CET-4 Through Messick, Kane, and Paraskeva’s Frameworks",
     "author": "Zhi Ma",
     "journal": "International Journal of Language and Linguistics",
