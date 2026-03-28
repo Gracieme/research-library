@@ -1,5 +1,41 @@
 [
   {
+    "title": "Partnering with AI: Intelligent writing assistance and instructed language learning",
+    "author": "Robert Godwin‐Jones",
+    "journal": "Language learning & technology",
+    "year": 2022,
+    "citations": 134,
+    "abstract": "In recent years, advances in artificial intelligence (AI) have led to significantly improved, or in some cases, completely new digital tools for writing. Systems for writing assessment and assistance based on automated writing evaluation (AWE) have been available for some time. That is the case for machine translation as well. More recent are synchronous feedback tools, such as Grammarly. That too…",
+    "relevance": "这篇论文探讨AI辅助写语工具（如自动写作评估AWE、机器翻译、Grammarly等）在语言教学中的应用，与方向一中的assessment（评估）和washback（反拨效应）相关，因为自动写作评估系统直接涉及语言评估方式的变革及其对教学实践的反拨影响。此外，该论文涉及AI工具在语言学习课堂中的运用，与方向二的CSL课堂互动与中介有一定关联，因为智能写作辅助工具可视为一种新型中介手段，可能改变学习者在写作过程中",
+    "doi": "https://doi.org/10.64152/10125/73474",
+    "added_date": "2026-03-28",
+    "id": "2026-03-28-2"
+  },
+  {
+    "title": "Essentials of a Theory of Language Cognition",
+    "author": "Nick C. Ellis",
+    "journal": "Modern Language Journal",
+    "year": 2019,
+    "citations": 259,
+    "abstract": "Abstract Cognition is not just ‘in the head’; it extends well beyond the skull and the skin. Non‐Cartesian Cognitive Science views cognition as being embodied, environmentally embedded, enacted, encultured, and socially distributed. The Douglas Fir Group (2016) likewise recognizes languages as emergent, social, integrated phenomena. Language is the quintessence of distributed cognition. Language c…",
+    "relevance": "这篇论文提出的非笛卡尔认知科学观（embodied, enacted, encultured, socially distributed cognition）及Douglas Fir Group的语言涌现观，与方向二的课堂互动与中介研究高度相关：translanguaging和同伴互动（peer interaction）正是语言认知社会分布性和情境嵌入性的课堂体现，而语言相关片段（LRE）的分析也植根于\"认知不仅在个体头脑中、而是在互动中共建\"这一理论前提。此外，该论文强调使用（usage）影响学习与语言本身，这一观点可为方向一中考试反",
+    "doi": "https://doi.org/10.1111/modl.12532",
+    "added_date": "2026-03-28",
+    "id": "2026-03-28-1"
+  },
+  {
+    "title": "Generative artificial intelligence, co‐evolution, and language education",
+    "author": "Steven L. Thorne",
+    "journal": "Modern Language Journal",
+    "year": 2024,
+    "citations": 21,
+    "abstract": "Kern&#x27;s (2024, this issue) anchor piece in this issue of The Modern Language Journal offers the opportunity for critical reflection on the role of (human) teachers amidst an ever-widening range of technologies to facilitate second language (L2) development. As Kern so accurately describes it, since March 2020 and the global onset of COVID-19, many language educators accustomed to teaching in face-t…",
+    "relevance": "这篇论文探讨生成式人工智能背景下语言教师角色的重新定位与技术变革对语言教育的影响，与方向三（教师与制度）相关，涉及教师在技术冲击下面临的情感压力、脆弱性及职业身份转变问题。同时，文章对技术如何中介语言学习的批判性反思也与方向二（课堂互动与中介）有一定关联，因为AI工具正在重塑L2课堂中的互动模式与学习中介方式。此外，其对技术与制度性变革的批判性视角也可延伸至方向一中",
+    "doi": "https://doi.org/10.1111/modl.12932",
+    "added_date": "2026-03-28",
+    "id": "2026-03-28-0"
+  },
+  {
     "title": "A comprehensive AI policy education framework for university teaching and learning",
     "author": "Cecilia Ka Yuk Chan",
     "journal": "International Journal of Educational Technology in Higher Education",
