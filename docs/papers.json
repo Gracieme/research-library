@@ -1,5 +1,41 @@
 [
   {
+    "title": "Challenging the monolingual mindset: Understanding plurilingual pedagogies in English as an Additional Language (EAL) classrooms",
+    "author": "Yvette Slaughter, Russell Cross",
+    "journal": "Language Teaching Research",
+    "year": 2020,
+    "citations": 68,
+    "abstract": "Current theories of bilingualism argue that the language practices of bilinguals are drawn from a single linguistic repertoire, and that enabling access to the full breadth of students’ language practices can be a vital resource for further language development. This challenges commonplace practices within English as an Additional Language (EAL) education in Australia, where curriculum, pedagogy, …",
+    "relevance": "该论文与上述研究方向有多重关联。首先，它关注在EAL课堂中运用多语教学法（plurilingual pedagogies），挑战单语主义思维，这与方向二中translanguaging及课堂互动中多语资源的运用直接相关。其次，论文探讨了课程、教学法与评估体系中根深蒂固的单语（English-only）结构如何制约教师实践，这与方向三中教师在制度性约束下的脆弱性（teacher vulnerability）以及方向一中评估体制所隐含的语言权力议题相呼应。此外，教师虽认同利用学生语言资源的必要",
+    "doi": "https://doi.org/10.1177/1362168820938819",
+    "added_date": "2026-03-29",
+    "id": "2026-03-29-2"
+  },
+  {
+    "title": "Translanguaging-as-Resource: University ESL Instructors’ Language Orientations and Attitudes Toward Translanguaging",
+    "author": "Jennifer Burton, Shakina Rajendram",
+    "journal": "TESL Canada Journal",
+    "year": 2019,
+    "citations": 75,
+    "abstract": "This article explores university English as a Second Language (ESL) instructors’ attitudes toward translanguaging in the classroom and possible reasons for instructors’ resistance in moving translanguaging ideology into English language teaching pedagogy. Many researchers have forwarded translanguaging as a theoretical and pedagogical approach to language education because of its potential cogniti…",
+    "relevance": "这篇论文与方向二（课堂互动与中介）和方向三（教师与制度）高度相关。它聚焦大学ESL教师对translanguaging的态度与语言取向，直接呼应方向二中translanguaging作为课堂教学资源的核心议题，同时涉及教师意识形态与教学实践之间的张力，与方向三中教师在制度环境下的情感劳动与脆弱性（如面对单语主义制度压力时的抵触与挣扎）形成对话。此外，教师对translanguaging的抵制也可延伸至方向一中语言权力与语言意识形态",
+    "doi": "https://doi.org/10.18806/tesl.v36i1.1301",
+    "added_date": "2026-03-29",
+    "id": "2026-03-29-1"
+  },
+  {
+    "title": "A Systematic Review of Machine-Translation-Assisted Language Learning for Sustainable Education",
+    "author": "Xinjie Deng, Zhonggen Yu",
+    "journal": "Sustainability",
+    "year": 2022,
+    "citations": 81,
+    "abstract": "With the rapid development of artificial intelligence, machine translation (MT) has gained popularity in recent years. This study aims to present a systematic review of literature on MT-assisted language learning in terms of main users, theoretical frameworks, users’ attitudes, and the ways in which MT tools are integrated with language teaching and learning. To this end, relevant peer-reviewed ar…",
+    "relevance": "该研究关注机器翻译辅助语言学习，与用户方向的研究存在一定间接关联。首先，机器翻译作为一种中介工具，可与方向二中translanguaging和课堂互动研究产生对话，因为学习者使用MT在语言间切换的过程涉及跨语言实践和语言相关片段（LRE）的生成。其次，MT工具在语言教学中的整合方式可能对评估实践产生回冲效应（washback），与方向一中assessment和washback的关注点有边缘关联。但总体而言，该文以系统综述和技术工具整合为核心，未直接",
+    "doi": "https://doi.org/10.3390/su14137598",
+    "added_date": "2026-03-29",
+    "id": "2026-03-29-0"
+  },
+  {
     "title": "Partnering with AI: Intelligent writing assistance and instructed language learning",
     "author": "Robert Godwin‐Jones",
     "journal": "Language learning & technology",
