@@ -1,5 +1,41 @@
 [
   {
+    "title": "We Are Best Friends: Animals in Society",
+    "author": "Leslie Irvine",
+    "journal": "—",
+    "year": 2019,
+    "citations": 2,
+    "abstract": "Friendships between humans and non-human animals were once dismissed as sentimental anthropomorphism. After decades of research on the emotional and cognitive capacities of animals, we now recognize human&ndash;animal friendships as true reciprocal relationships. Friendships with animals have many of the same characteristics as friendships between humans. Both parties enjoy the shared presence tha…",
+    "relevance": "这篇论文探讨人与动物之间的友谊关系及其超越口头语言的沟通方式，与用户的三个研究方向关联性极低。虽然文中涉及\"非口头语言沟通\"的概念，但其研究对象（人与动物的关系）和学科领域（人与动物研究/动物伦理）与用户关注的应用语言学议题——语言评估与权力、课堂二语互动、教师情感劳动等——几乎没有实质性交集。",
+    "doi": "https://doi.org/10.3390/books978-3-03921-537-9",
+    "added_date": "2026-04-02",
+    "id": "2026-04-02-2"
+  },
+  {
+    "title": "The Impact of Teacher Identity on Curriculum Design",
+    "author": "Willow Regnery",
+    "journal": "—",
+    "year": 2021,
+    "citations": 1,
+    "abstract": "The iterative process of identity building that educators experience in the broader expanse of their lives directly impacts their pedagogical decisions and preferences. In addition, educators&#x27; relationship to place can be a significant factor in curriculum design in how they make connections between the classroom and the spaces their lives inhabit. A review of the literature looks at limits to the…",
+    "relevance": "该论文探讨教师身份认同如何影响课程设计决策，与方向三（教师与制度）直接相关，尤其呼应教师主体性、身份建构及其在制度框架内的教学实践选择，与teacher vulnerability和emotional labor所涉及的教师内在经验研究具有方法论和主题上的亲缘性。此外，论文关注教育体制的局限性与变革实践，也与方向三中DLI等制度性语境下教师能动性的议题形成对话。不过，该研究并未直接涉及语言教育或应用语言学领域，关联性属于间接层面。",
+    "doi": "https://doi.org/10.33015/dominican.edu/2021.edu.10",
+    "added_date": "2026-04-02",
+    "id": "2026-04-02-1"
+  },
+  {
+    "title": "Telling Half a Story: A Mixed Methods Approach to Understanding Culturally Relevant Engineering Education in Nigeria and the U.S.",
+    "author": "Moses Olayemi",
+    "journal": "—",
+    "year": 2024,
+    "citations": 1,
+    "abstract": "Abstract Nigerian students account for more than a quarter of all African students in the US, having just recently overtaken Mexico as the United States&#x27; 9th highest source of international students. These huge numbers, however, have not necessarily translated into seamless transitions for students who still have to cope with cases of systemic racism, discrimination, and microaggression. While sch…",
+    "relevance": "这篇论文与用户研究方向存在一定关联：它关注教育制度中的系统性种族主义、歧视与微侵犯，涉及教育公平与权力不对等问题，与方向一中epistemic injustice及CDA对制度性权力话语的批判性分析有呼应；论文探讨学校多元化与包容承诺之间的落差，涉及制度层面的话语与实践脱节，与方向三中制度批判（如DLI项目中教师在制度压力下的处境）有方法论和理论上的交叉，尤其在揭示教育机构权力结构如何影响边缘化群",
+    "doi": "https://doi.org/10.18260/1-2--44041",
+    "added_date": "2026-04-02",
+    "id": "2026-04-02-0"
+  },
+  {
     "title": "Race and language teaching",
     "author": "Kerry Soo Von Esch, Suhanthie Motha, Ryūko Kubota",
     "journal": "Language Teaching",
