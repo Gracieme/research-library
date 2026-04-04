@@ -1,5 +1,41 @@
 [
   {
+    "title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on opportunities, challenges and implications of generative conversational AI for research, practice and policy",
+    "author": "Yogesh K. Dwivedi, Nir Kshetri, Laurie Hughes et al.",
+    "journal": "International Journal of Information Management",
+    "year": 2023,
+    "citations": 3375,
+    "abstract": "Transformative artificially intelligent tools, such as ChatGPT, designed to generate sophisticated text indistinguishable from that produced by a human, are applicable across a wide range of contexts. The technology presents opportunities as well as, often ethical and legal, challenges, and has the potential for both positive and negative impacts for organisations, society, and individuals. Offeri…",
+    "relevance": "该论文探讨ChatGPT等生成式AI对教育、政策等多领域的机遇与挑战，与用户的研究方向存在多层面关联。首先，在评估与语言权力方面，AI生成文本对语言考试（如AP Chinese）的评估效度与公平性构成直接冲击，涉及谁的知识被认可（epistemic injustice）以及考试反拨效应（washback）的重新审视。其次，在教师与制度层面，生成式AI对双语沉浸式教育（DLI）教师的角色定位、情感劳动及教学实践带来新的压力与脆弱性，也对教育",
+    "doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102642",
+    "added_date": "2026-04-04",
+    "id": "2026-04-04-2"
+  },
+  {
+    "title": "Barriers and breakthroughs: engaging in socially just ways towards issues of indigeneity, identity, and whiteness in teacher education",
+    "author": "Tasha Riley, Sue Monk, Harry VanIssum",
+    "journal": "Whiteness and Education",
+    "year": 2019,
+    "citations": 19,
+    "abstract": "Within Australia, The Australian Professional Standard for Teachers’ Standard 1.4 dictates that teachers should have an understanding and awareness of the histories, cultures and languages of Aboriginal and Torres Strait Islander peoples. Yet non-Indigenous teachers seem reluctant to integrate Indigenous perspectives in the classroom. This study examines how 142 pre-service teachers’ views on a fi…",
+    "relevance": "该论文聚焦职前教师在原住民教育课程中面对身份认同、白人性（whiteness）与社会公正议题时的态度转变与情感障碍，与方向三（教师与制度）高度相关：它涉及教师在制度性要求（专业标准）下处理敏感议题时的脆弱性（teacher vulnerability）和情感劳动（emotional labor），尤其是非原住民教师在整合原住民视角时的抵触与突破过程。此外，该研究对社会公正/反种族主义框架的分析也与方向一（语言权力与认知不公正）存在交叉，因为原住",
+    "doi": "https://doi.org/10.1080/23793406.2019.1625283",
+    "added_date": "2026-04-04",
+    "id": "2026-04-04-1"
+  },
+  {
+    "title": "Emotion Labor as Professional Development Work: Insights from Teachers Doing Action Research",
+    "author": "Mostafa Nazari, Sedigheh Karimpour, Mohammadali Ranjbar",
+    "journal": "TESOL Quarterly",
+    "year": 2023,
+    "citations": 22,
+    "abstract": "Abstract Over the past decades, research on language teachers&#x27; engagement in action research (AR) and more recently on their emotion labor has exponentially grown. However, little research is available on how AR and emotion labor intersect to shape language teacher professional development. This study addressed this gap by reporting on how four Iranian English language teachers used emotion labor …",
+    "relevance": "这篇论文直接关联方向三（教师与制度），其核心聚焦于语言教师的emotional labor，并将其置于行动研究（action research）框架下探讨教师专业发展，与用户关注的教师情感劳动和教师脆弱性（teacher vulnerability）高度契合。此外，该研究采用反思日志和课堂观察等质性数据收集方法，与用户方向三中自我民族志（autoethnography）所强调的教师主体经验与反思性探究在方法论精神上相呼应。该研究将emotion labor重新概念化为专业发展的积极资源而非单纯的情感",
+    "doi": "https://doi.org/10.1002/tesq.3226",
+    "added_date": "2026-04-04",
+    "id": "2026-04-04-0"
+  },
+  {
     "title": "“I Would Purposely Try to Keep them Separated”: Language Ideologies, Language Policy, and Beliefs about Emergent Bilinguals in Career and Technical Education",
     "author": "Mark R. Emerick, Jodie L. Goldberg",
     "journal": "TESOL Quarterly",
