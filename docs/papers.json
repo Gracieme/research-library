@@ -1,5 +1,41 @@
 [
   {
+    "title": "Exploring the Impact of the COVID-19 Pandemic on University Students’ Learning Life: An Integrated Conceptual Motivational Model for Sustainable and Healthy Online Learning",
+    "author": "Nabil Hasan Al-Kumaim, Abdulsalam K. Alhazmi, Fathey Mohammed et al.",
+    "journal": "Sustainability",
+    "year": 2021,
+    "citations": 263,
+    "abstract": "The COVID-19 pandemic has forced many organizations around the world to make full use of a variety of emerging online communication platform technologies. Universities are among the organizations that have asked students, tutors, and lecturers to use a number of different online communication platforms to ensure the education process remains uninterrupted. However, the COVID-19 pandemic has genera…",
+    "relevance": "这篇论文关注疫情期间大学生在线学习的动机模型与挑战，与用户的三个核心研究方向关联性较弱。若勉强关联，其对学习环境突变下学生学习体验与动机的探讨，可在宏观层面与【方向二】课堂互动研究中学习者在线环境下的中介过程（如同伴互动模式的转变）产生边缘联系；同时，疫情对教学模式的冲击也可间接呼应【方向三】中教师在制度性变革下所承受的情感劳动与脆弱性议题。但该论文本身并未涉及",
+    "doi": "https://doi.org/10.3390/su13052546",
+    "added_date": "2026-04-05",
+    "id": "2026-04-05-2"
+  },
+  {
+    "title": "Is Empathy the Key to Effective Teaching? A Systematic Review of Its Association with Teacher-Student Interactions and Student Outcomes",
+    "author": "Karen Aldrup, Bastian Carstensen, Uta Klusmann",
+    "journal": "Educational Psychology Review",
+    "year": 2022,
+    "citations": 171,
+    "abstract": "Abstract Teachers’ social-emotional competence has received increasing attention in educational psychology for about a decade and has been suggested to be an important prerequisite for the quality of teacher-student interactions and student outcomes. In this review, we will summarize the current state of knowledge about the association between one central component of teachers’ social-emotional co…",
+    "relevance": "这篇论文聚焦教师共情能力与师生互动质量及学生学习结果之间的关系，与方向三（教师与制度）直接相关：教师共情作为社会情感能力的核心成分，与教师情感劳动（emotional labor）和教师脆弱性（teacher vulnerability）密切交织，共情的持续付出可能加剧情感耗竭，也可能成为教师维系教学效能的关键资源。此外，该研究对师生互动质量的系统梳理也与方向二（课堂互动与中介）有一定关联，为理解CSL课堂中教师如何通过情感维度",
+    "doi": "https://doi.org/10.1007/s10648-021-09649-y",
+    "added_date": "2026-04-05",
+    "id": "2026-04-05-1"
+  },
+  {
+    "title": "Online teaching self-efficacy during COVID-19: Changes, its associated factors and moderators",
+    "author": "Kang Ma, Muhammad Chutiyami, Yijin Zhang et al.",
+    "journal": "Education and Information Technologies",
+    "year": 2021,
+    "citations": 209,
+    "abstract": "",
+    "relevance": "该论文关注教师在COVID-19期间在线教学自我效能感的变化及其影响因素，与方向三中教师情感与制度层面的研究相关，尤其与教师脆弱性（teacher vulnerability）和情感劳动（emotional labor）议题相呼应，因为突发公共事件中教学模式的被迫转变可能加剧教师的情感负担与职业脆弱感。此外，自我效能感作为教师心理资源的重要维度，其变化与调节因素的探讨可为理解制度性压力下教师的应对机制提供参考。",
+    "doi": "https://doi.org/10.1007/s10639-021-10486-3",
+    "added_date": "2026-04-05",
+    "id": "2026-04-05-0"
+  },
+  {
     "title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on opportunities, challenges and implications of generative conversational AI for research, practice and policy",
     "author": "Yogesh K. Dwivedi, Nir Kshetri, Laurie Hughes et al.",
     "journal": "International Journal of Information Management",
