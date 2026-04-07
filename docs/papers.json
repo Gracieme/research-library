@@ -1,5 +1,41 @@
 [
   {
+    "title": "Teacher enthusiasm and students’ social-behavioral learning engagement: The mediating role of student enjoyment and boredom in Chinese EFL classes",
+    "author": "Jean‐Marc Dewaele, Chengchen Li",
+    "journal": "Language Teaching Research",
+    "year": 2021,
+    "citations": 446,
+    "abstract": "Teacher enthusiasm is attracting growing attention in educational and learner psychology research. There is evidence that teacher enthusiasm is contagious in class and positively affects student emotions. Their fundamental role in shaping student engagement has also been well documented. However, the links – between teacher enthusiasm and student emotions, and between student emotions and engageme…",
+    "relevance": "该研究关注教师热情、学生情绪与课堂参与之间的关系，与方向三（教师与制度）中教师情感劳动（emotional labor）的主题相关，教师热情可视为情感劳动的一种表现形式。同时，研究聚焦EFL课堂中的学生互动参与（social-behavioral engagement），与方向二（课堂互动与中介）中对CSL/外语课堂互动动态的关注有一定交叉。不过，该研究侧重学习者心理学视角，与用户核心关注的评估权力、语言中介及制度批判等议题的直接关联较为有限。",
+    "doi": "https://doi.org/10.1177/13621688211014538",
+    "added_date": "2026-04-07",
+    "id": "2026-04-07-2"
+  },
+  {
+    "title": "Artificial intelligence in language instruction: impact on English learning achievement, L2 motivation, and self-regulated learning",
+    "author": "Ling Wei",
+    "journal": "Frontiers in Psychology",
+    "year": 2023,
+    "citations": 367,
+    "abstract": "This study contributes to evidence-based language pedagogy, offering valuable insights to educators and researchers interested in incorporating AI-powered platforms into language classrooms. The results support the notion that AI-mediated language instruction holds promise in revolutionizing language learning, and it highlights the positive impact of AI-driven educational technologies in the realm…",
+    "relevance": "该论文聚焦AI技术在语言教学中的应用及其对学习成效、动机和自主学习的影响，与用户的核心研究方向关联较弱。若从广义上看，它与【方向二】课堂互动与中介有一定边缘联系，因为AI平台可被视为一种新的学习中介工具，可能影响课堂互动模式和语言相关事件（LRE）的产生方式；此外，AI驱动的评估功能也可能与【方向一】中的assessment及washback议题产生间接对话，例如AI反馈如何影响学习者的语言表现和考试准备策略。但总体",
+    "doi": "https://doi.org/10.3389/fpsyg.2023.1261955",
+    "added_date": "2026-04-07",
+    "id": "2026-04-07-1"
+  },
+  {
+    "title": "Leadership is needed for ethical ChatGPT: Character, assessment, and learning using artificial intelligence (AI)",
+    "author": "Joseph Crawford, Michael Cowling, Kelly‐Ann Allen",
+    "journal": "Journal of University Teaching and Learning Practice",
+    "year": 2023,
+    "citations": 497,
+    "abstract": "The OpenAI’s ChatGPT-3, or Chat Generative Pre-Trained Transformer was released in November 2022 without significant warning, and has taken higher education by storm since. The artificial intelligence (AI)-powered chatbot has caused alarm for practitioners seeking to detect authenticity of student work. Whereas some educational doomsayers predict the end of education in its current form, we propos…",
+    "relevance": "这篇论文讨论了ChatGPT等AI工具对高等教育评估真实性（assessment authenticity）带来的挑战及其应对策略，与方向一中的assessment主题直接相关，尤其涉及评估设计如何在技术变革下维护公平性与有效性。此外，论文关注教育者在AI冲击下的角色调适与伦理领导力，与方向三中教师身份、制度应对的关切有一定呼应，可为思考教师在制度变革中的能动性与脆弱性提供参照。不过，该论文聚焦于AI与品格教育，并未直接涉及语言教",
+    "doi": "https://doi.org/10.53761/1.20.3.02",
+    "added_date": "2026-04-07",
+    "id": "2026-04-07-0"
+  },
+  {
     "title": "Engagement with written corrective feedback: Examination of feedback types and think-aloud protocol as pedagogical interventions",
     "author": "Mahmoud Abdi Tabari, Masatoshi Sato, Yizhou Wang",
     "journal": "Language Teaching Research",
