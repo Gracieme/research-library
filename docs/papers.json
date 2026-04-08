@@ -1,5 +1,41 @@
 [
   {
+    "title": "A Hybrid Automated Essay Scoring Using NLP and Random Forest Regression",
+    "author": "Muhammad Zaim Azri Bin Azahar, Khairil Imran Ghauth",
+    "journal": "—",
+    "year": 2022,
+    "citations": 4,
+    "abstract": "Assessing the performance of students through subjective assessments namely essays is critical in measuring their achievement during the learning process in an educational system.The essay test will evaluate the student&#x27;s ability to remember and express their ideas or opinions toward certain topics.A teaching staff is usually required to assess and grade the students&#x27; essays.This paper presents a …",
+    "relevance": "该论文聚焦自动化作文评分系统的技术开发，与方向一中的\"assessment\"主题存在表层关联，均涉及评估实践中的评分机制问题。然而，该研究侧重机器学习与自然语言处理的技术实现，并未涉及评估背后的语言权力、认识论不公正（epistemic injustice）或反拨效应（washback）等批判性议题，因此与用户三个研究方向的核心理论关怀距离较远，直接参考价值有限。",
+    "doi": "https://doi.org/10.2991/978-94-6463-094-7_35",
+    "added_date": "2026-04-08",
+    "id": "2026-04-08-2"
+  },
+  {
+    "title": "ChatGPT for Education and Research: Opportunities, Threats, and Strategies",
+    "author": "Md. Mostafizer Rahman, Yutaka Watanobe",
+    "journal": "Applied Sciences",
+    "year": 2023,
+    "citations": 864,
+    "abstract": "In recent years, the rise of advanced artificial intelligence technologies has had a profound impact on many fields, including education and research. One such technology is ChatGPT, a powerful large language model developed by OpenAI. This technology offers exciting opportunities for students and educators, including personalized feedback, increased accessibility, interactive conversations, lesso…",
+    "relevance": "这篇论文探讨ChatGPT对教育和研究的机遇与威胁，与用户研究方向存在间接关联。在评估与语言权力方面，ChatGPT作为评估工具可能影响考试反拨效应（washback）及评估公平性，涉及谁的知识被AI认可的认识论正义（epistemic injustice）问题。此外，AI技术对教师角色的冲击也可能加剧教师的情感劳动（emotional labor）与脆弱性（teacher vulnerability），与方向三中关于教师制度性压力的研究形成对话。",
+    "doi": "https://doi.org/10.3390/app13095783",
+    "added_date": "2026-04-08",
+    "id": "2026-04-08-1"
+  },
+  {
+    "title": "A Survey of Large Language Models",
+    "author": "Wayne Xin Zhao, Kun Zhou, Junyi Li et al.",
+    "journal": "ArXiv.org",
+    "year": 2023,
+    "citations": 1378,
+    "abstract": "Language is essentially a complex, intricate system of human expressions governed by grammatical rules. It poses a significant challenge to develop capable AI algorithms for comprehending and grasping a language. As a major approach, language modeling has been widely studied for language understanding and generation in the past two decades, evolving from statistical language models to neural langu…",
+    "relevance": "这篇论文是关于大语言模型（LLM）技术发展的综述，属于自然语言处理（NLP）领域的技术性研究，与用户的三个研究方向仅存在间接的工具性关联。在方向一中，LLM技术可能被用于自动化语言评估（如AP Chinese写作评分）或批判性话语分析的辅助工具，但该论文本身不涉及评估公平性或语言权力议题。在方向二和方向三中，LLM可作为课堂互动研究中的数据分析工具或教学中介手段，但该综述聚焦于模型架构与训练范式，并",
+    "doi": "https://doi.org/10.48550/arxiv.2303.18223",
+    "added_date": "2026-04-08",
+    "id": "2026-04-08-0"
+  },
+  {
     "title": "Teacher enthusiasm and students’ social-behavioral learning engagement: The mediating role of student enjoyment and boredom in Chinese EFL classes",
     "author": "Jean‐Marc Dewaele, Chengchen Li",
     "journal": "Language Teaching Research",
