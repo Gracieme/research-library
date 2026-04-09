@@ -1,5 +1,41 @@
 [
   {
+    "title": "GPT-4 Technical Report",
+    "author": "OpenAI, Wijayagunawardhana, W. A. Hasindu N.",
+    "journal": "arXiv (Cornell University)",
+    "year": 2023,
+    "citations": 2268,
+    "abstract": "Abstract—Large Language Models (LLMs) suffer from inherent stochasticity, limiting their utility in high-stakes enterprise environments where determinism and auditability are required. This paper introduces the MFOUR Vibe Framework (MVF), a platform-agnostic architectural standard that transforms probabilistic natural language intent into deterministic software artifacts. We define a five-layer to…",
+    "relevance": "这篇论文聚焦于大型语言模型（GPT-4）的技术架构与确定性输出框架，属于计算机科学与人工智能领域，与用户三个研究方向均无直接关联。尽管AI工具在语言评估、课堂互动分析或教师研究中可作为辅助手段，但该论文本身并未涉及语言教育、评估公平性、课堂话语互动或教师制度等议题，因此关联性极为有限。",
+    "doi": "https://doi.org/10.4230/lipics.cosit.2024.11",
+    "added_date": "2026-04-09",
+    "id": "2026-04-09-2"
+  },
+  {
+    "title": "Supporting Nordic Scholars Who Write in English for Research Publication Purposes",
+    "author": "Birna Arnbjörnsdóttir",
+    "journal": "—",
+    "year": 2019,
+    "citations": 7,
+    "abstract": "This paper describes an intensive writing English for research publication purposes (ERPP) workshop for seasoned scholars at the University of Iceland. The workshop was developed in response to a mixed method study of almost 300 members of the faculty at the University of Iceland. The study revealed that despite great pressure to publish in English language journals, the university provided no wri…",
+    "relevance": "这篇论文关注非英语母语学者在英语学术发表中面临的压力与支持缺失，涉及语言权力不对等和制度层面的问题，与方向一（语言权力、认识论不公正）相关——英语霸权下非英语圈学者在知识生产与传播中遭遇的系统性不公可被视为epistemic injustice的一种体现。同时，论文揭示了大学制度未能提供写作支持导致学者能动性（agency）受限，这与方向三（教师与制度）中对制度性结构如何影响个体脆弱性和情感劳动的关切相呼应。",
+    "doi": "https://doi.org/10.4324/9781315151229-5",
+    "added_date": "2026-04-09",
+    "id": "2026-04-09-1"
+  },
+  {
+    "title": "Genre‐Based Instruction and Corpora",
+    "author": "Ken Hyland",
+    "journal": "TESOL Quarterly",
+    "year": 2023,
+    "citations": 13,
+    "abstract": "Genre, understood most simply, is a term for grouping texts together, representing broad rhetorical templates that writers draw on to respond to recurring situations: what users see as effective ways of getting things done using language. The importance of genre in second language writing instruction is that it allows teachers to understand and make explicit to students, the ways that texts can be…",
+    "relevance": "这篇论文聚焦于体裁教学法（Genre-Based Instruction）与语料库在二语写作教学中的应用，与用户的研究方向有一定间接关联。在【方向二】层面，体裁教学强调通过明示性教学帮助学习者理解语篇功能与修辞模式，这与CSL课堂中的中介（mediation）理念相通，教师作为中介者引导学生关注语言形式与意义的关系，可与语言相关片段（LRE）的研究产生对话。在【方向一】层面，体裁作为一种语篇分析框架，与批评话语分析（CDA）共",
+    "doi": "https://doi.org/10.1002/tesq.3273",
+    "added_date": "2026-04-09",
+    "id": "2026-04-09-0"
+  },
+  {
     "title": "A Hybrid Automated Essay Scoring Using NLP and Random Forest Regression",
     "author": "Muhammad Zaim Azri Bin Azahar, Khairil Imran Ghauth",
     "journal": "—",
