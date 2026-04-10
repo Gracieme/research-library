@@ -1,5 +1,41 @@
 [
   {
+    "title": "Challenges and Possibilities of ICT-Mediated Assessment in Virtual Teaching and Learning Processes",
+    "author": "Esperanza Milena Torres-Madroñero, María C. Torres-Madroñero, Luz Dary Ruíz Botero",
+    "journal": "Future Internet",
+    "year": 2020,
+    "citations": 36,
+    "abstract": "The transformations in educational environments due to the immersion of information and communication technologies (ICT) make it necessary to analyze the limits and possibilities of the assessment of the virtual training process. This paper presents an analysis of the meanings of ICT-mediated assessment, establishing what kinds of knowledge are suitable for this type of evaluation, and the challen…",
+    "relevance": "该论文探讨ICT中介的评估在虚拟教学中的挑战与可能性，与方向一中\"assessment\"主题直接相关，尤其涉及评估方式变革对知识类型判定的影响，可延伸思考技术中介评估中可能存在的认识论公正性（epistemic injustice）问题，即哪些知识被认为\"适合\"特定评估形式本身即涉及权力与知识合法性的议题。此外，评估范式的转变也可能产生washback效应，影响教与学的实践方式，与方向一的反拨效应研究形成对话。",
+    "doi": "https://doi.org/10.3390/fi12120232",
+    "added_date": "2026-04-10",
+    "id": "2026-04-10-2"
+  },
+  {
+    "title": "The effect of academic emotion regulation on EFL learners’ core of self-assessment and academic buoyancy: a structural equation modeling",
+    "author": "Tahereh Heydarnejad, Khaled Ahmed Abdel-Al Ibrahim, Nasser Said Gomaa Abdelrasheed et al.",
+    "journal": "Language Testing in Asia",
+    "year": 2022,
+    "citations": 28,
+    "abstract": "Abstract Students are essential parts of society, and their mental health and emotional safety as well as a sense of purpose, achievement, and success are the major objectives of successful education. They need to be armed with self-aid constructs to overcome academic setbacks and challenges. Despite the attributions of academic emotion regulation (AER), the core of self-assessment (CSA) to academ…",
+    "relevance": "这篇论文关注外语学习者的学业情绪调节、自我评估核心及学业韧性之间的关系，与用户的研究方向存在一定的边缘关联。首先，其中涉及的\"自我评估\"（self-assessment）概念与方向一中的评估（assessment）主题有表面交集，但该研究侧重心理学层面的自我评价特质（如自尊、自我效能），而非语言测试或制度性评估，因此关联较弱。其次，该研究涉及EFL学习者的情绪与情感维度，可与方向三中教师情感劳动（emotional labor）形成情感研究的",
+    "doi": "https://doi.org/10.1186/s40468-022-00207-z",
+    "added_date": "2026-04-10",
+    "id": "2026-04-10-1"
+  },
+  {
+    "title": "Understanding students’ motivation in translation learning: a case study from the self-concept perspective",
+    "author": "Chunhong Liu, Chengyuan Yu",
+    "journal": "Asian-Pacific Journal of Second and Foreign Language Education",
+    "year": 2019,
+    "citations": 36,
+    "abstract": "To meet the increasing needs for translators and interpreters, Master of Translation and Interpreting (MTI) program was launched in Chinese universities. Discussion on how to cultivate MTI students who are supposed to be excellent users of foreign language except their mother tongue attracts many Chinese researchers, while little is done from the perspective of students, the main stakeholders of t…",
+    "relevance": "这篇论文关注翻译硕士学生的学习动机与自我概念，涉及语言学习者的主体性与情感因素，与用户的研究方向有一定间接关联。具体而言，它与方向三中教师与学习者情感层面（如emotional labor、vulnerability）的关注视角有边缘呼应，均聚焦于教育制度中利益相关者的内在体验与能动性。然而，该研究聚焦于翻译专业学生动机而非CSL课堂互动、语言评估权力或双语教育制度，与用户三个核心方向的直接关联性较弱。",
+    "doi": "https://doi.org/10.1186/s40862-019-0066-6",
+    "added_date": "2026-04-10",
+    "id": "2026-04-10-0"
+  },
+  {
     "title": "GPT-4 Technical Report",
     "author": "OpenAI, Wijayagunawardhana, W. A. Hasindu N.",
     "journal": "arXiv (Cornell University)",
