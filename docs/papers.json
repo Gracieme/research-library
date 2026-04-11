@@ -1,5 +1,41 @@
 [
   {
+    "title": "Harnessing the Power of AI: A Comprehensive Review of Its Impact and Challenges in Nursing Science and Healthcare",
+    "author": "Seema Yelne, Minakshi Chaudhary, Karishma Dod et al.",
+    "journal": "Cureus",
+    "year": 2023,
+    "citations": 168,
+    "abstract": "This comprehensive review delves into the impact and challenges of Artificial Intelligence (AI) in nursing science and healthcare. AI has already demonstrated its transformative potential in these fields, with applications spanning from personalized care and diagnostic accuracy to predictive analytics and telemedicine. However, the integration of AI has its complexities, including concerns related…",
+    "relevance": "该论文聚焦AI在护理科学与医疗领域的应用及挑战，与用户的三个研究方向关联性较弱。不过，文中涉及的算法偏见（biases in algorithms and datasets）和伦理问题可与方向一中的认识论不公正（epistemic injustice）形成跨学科对话，即技术系统如何复制或加剧对特定群体的系统性偏见与权力不对等。此外，AI对专业实践的冲击也可类比方向三中教师面对制度变革时的脆弱性与情感劳动议题，但整体而言该文的医疗护理语境与用户的语言",
+    "doi": "https://doi.org/10.7759/cureus.49252",
+    "added_date": "2026-04-11",
+    "id": "2026-04-11-2"
+  },
+  {
+    "title": "FUTURE-AI: international consensus guideline for trustworthy and deployable artificial intelligence in healthcare",
+    "author": "Karim Lekadir, Alejandro F. Frangi, Antonio R. Porras et al.",
+    "journal": "BMJ",
+    "year": 2025,
+    "citations": 247,
+    "abstract": "Despite major advances in artificial intelligence (AI) research for healthcare, the deployment and adoption of AI technologies remain limited in clinical practice. This paper describes the FUTURE-AI framework, which provides guidance for the development and deployment of trustworthy AI tools in healthcare. The FUTURE-AI Consortium was founded in 2021 and comprises 117 interdisciplinary experts fro…",
+    "relevance": "该论文聚焦于医疗领域人工智能的可信赖性与部署框架，属于技术伦理与跨学科治理范畴，与用户三个研究方向均无直接关联。若做宽泛联系，其关于\"可信赖性\"\"伦理共识\"的讨论逻辑可类比方向一中对评估公平性（epistemic injustice）和制度权力的批判性关注，但学科领域、研究对象和方法论差异过大，实际参考价值极为有限。",
+    "doi": "https://doi.org/10.1136/bmj-2024-081554",
+    "added_date": "2026-04-11",
+    "id": "2026-04-11-1"
+  },
+  {
+    "title": "Leveraging Generative AI and Large Language Models: A Comprehensive Roadmap for Healthcare Integration",
+    "author": "Ping Yu, Hua Xu, Xia Hu et al.",
+    "journal": "Healthcare",
+    "year": 2023,
+    "citations": 224,
+    "abstract": "Generative artificial intelligence (AI) and large language models (LLMs), exemplified by ChatGPT, are promising for revolutionizing data and information management in healthcare and medicine. However, there is scant literature guiding their integration for non-AI professionals. This study conducts a scoping literature review to address the critical need for guidance on integrating generative AI an…",
+    "relevance": "这篇论文聚焦于生成式AI和大语言模型在医疗领域的整合应用，与用户的三个研究方向均无直接关联。尽管AI技术在教育评估和语言教学中具有潜在应用前景（如自动化评分或辅助语言学习），但该文专注于医疗健康场景，未涉及语言评估、课堂互动、教师情感劳动或双语教育等应用语言学核心议题，关联性极为有限。",
+    "doi": "https://doi.org/10.3390/healthcare11202776",
+    "added_date": "2026-04-11",
+    "id": "2026-04-11-0"
+  },
+  {
     "title": "Challenges and Possibilities of ICT-Mediated Assessment in Virtual Teaching and Learning Processes",
     "author": "Esperanza Milena Torres-Madroñero, María C. Torres-Madroñero, Luz Dary Ruíz Botero",
     "journal": "Future Internet",
