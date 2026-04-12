@@ -1,5 +1,41 @@
 [
   {
+    "title": "A Sociocultural Perspective on English-as-a-Foreign-Language (EFL) Teachers’ Cognitions About Form-Focused Instruction",
+    "author": "Sun Qiang, Lawrence Jun Zhang",
+    "journal": "Frontiers in Psychology",
+    "year": 2021,
+    "citations": 47,
+    "abstract": "There has been much research into teacher beliefs about teaching and learning as seen in the general teacher education literature. In the field of language teacher education, this line of research has been evolving, with the recent trend being streamlined into \"teacher cognition\" as a generic or umbrella term. Despite increasing amounts of research output so far, research into foreign language tea…",
+    "relevance": "该论文从社会文化理论（Vygotsky）视角探讨中国大学EFL教师对形式聚焦教学的认知与决策，与方向三（教师与制度）直接相关，涉及教师信念、教学决策及其所处制度环境对教学实践的影响。同时，该研究关注课堂中的语法教学互动决策，与方向二（课堂互动与中介）中社会文化中介理论的应用有一定交叉。此外，教师认知研究中对教师内在经验与情感的关注，也可为方向三中教师脆弱性与情感劳动的研究提供",
+    "doi": "https://doi.org/10.3389/fpsyg.2021.593172",
+    "added_date": "2026-04-12",
+    "id": "2026-04-12-2"
+  },
+  {
+    "title": "Critical review of validation models and practices in language testing: their limitations and future directions for validation research",
+    "author": "Gwan-Hyeok Im, Dongil Shin, Liying Cheng",
+    "journal": "Language Testing in Asia",
+    "year": 2019,
+    "citations": 46,
+    "abstract": "The purpose of this paper is to critically review the traditional and contemporary validation frameworks—the content, criterion, and construct validations; the evidence-gathering; the socio-cognitive model; the test usefulness; and an argument-based approach—as well as empirical studies using an argument-based approach to validation in high-stakes contexts to discuss the applicability of an argume…",
+    "relevance": "该论文系统审视了语言测试领域从传统到当代的各种效度验证框架（包括基于论证的方法、社会认知模型等），并聚焦高利害测试情境中的验证实践，这与方向一对AP Chinese等标准化考试的assessment研究直接相关，尤其在评估效度、washback效应及测试公平性方面提供了重要的理论基础。此外，论文对效度模型局限性的批判性分析可为方向一中运用CDA和epistemic injustice视角审视语言测试中的权力关系与知识合法性问题提供方法论参照，有助于揭示测试验证",
+    "doi": "https://doi.org/10.1186/s40468-019-0089-4",
+    "added_date": "2026-04-12",
+    "id": "2026-04-12-1"
+  },
+  {
+    "title": "Connecting foreign language enjoyment and English proficiency levels: The mediating role of L2 motivation",
+    "author": "Haihua Wang, Lin Xu, Jiaxin Li",
+    "journal": "Frontiers in Psychology",
+    "year": 2023,
+    "citations": 52,
+    "abstract": "To further understand the connections between positive emotions, in particular foreign language enjoyment, second language (L2) motivation, and English achievement, the present study investigated how foreign language enjoyment and L2 motivation contribute to learners&#x27; English achievement and the mediating role of motivation in the pathway. A questionnaire was employed to collect quantitative data …",
+    "relevance": "该研究关注中国EFL学习者的外语愉悦感、二语动机与英语成绩之间的中介关系，涉及课堂情感因素与语言学习成效的联系，与方向二（CSL/课堂互动与中介）有一定间接关联，尤其在理解学习者情感如何中介语言发展过程方面。然而，该研究侧重量化问卷与动机变量，未涉及translanguaging、LRE、同伴互动等核心议题，也与方向一的评估公平性及方向三的教师制度研究无直接关联，整体关联度较低。",
+    "doi": "https://doi.org/10.3389/fpsyg.2023.1054657",
+    "added_date": "2026-04-12",
+    "id": "2026-04-12-0"
+  },
+  {
     "title": "Harnessing the Power of AI: A Comprehensive Review of Its Impact and Challenges in Nursing Science and Healthcare",
     "author": "Seema Yelne, Minakshi Chaudhary, Karishma Dod et al.",
     "journal": "Cureus",
