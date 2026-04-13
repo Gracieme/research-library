@@ -1,5 +1,41 @@
 [
   {
+    "title": "Assessing the Utility of ChatGPT Throughout the Entire Clinical Workflow: Development and Usability Study",
+    "author": "Arya Rao, Michael Pang, John Kim et al.",
+    "journal": "Journal of Medical Internet Research",
+    "year": 2023,
+    "citations": 367,
+    "abstract": "ChatGPT achieves impressive accuracy in clinical decision-making, with increasing strength as it gains more clinical information at its disposal. In particular, ChatGPT demonstrates the greatest accuracy in tasks of final diagnosis as compared to initial diagnosis. Limitations include possible model hallucinations and the unclear composition of ChatGPT&#x27;s training data set.",
+    "relevance": "该论文聚焦于ChatGPT在临床医学决策中的应用评估，属于医学信息学领域，与用户的三个研究方向均无直接关联。若做宽泛联系，其对AI工具效用的评估思路可为语言测试领域探讨AI辅助评分或AI生成反馈的有效性提供方法论参照，但论文本身不涉及语言教育、评估公平性或课堂互动等议题，关联性极低。",
+    "doi": "https://doi.org/10.2196/48659",
+    "added_date": "2026-04-13",
+    "id": "2026-04-13-2"
+  },
+  {
+    "title": "Digital Twin: Values, Challenges and Enablers From a Modeling Perspective",
+    "author": "Adil Rasheed, Omer San, Trond Kvamsdal",
+    "journal": "IEEE Access",
+    "year": 2020,
+    "citations": 1620,
+    "abstract": "Digital twin can be defined as a virtual representation of a physical asset enabled through data and simulators for real-time prediction, optimization, monitoring, controlling, and improved decision making. Recent advances in computational pipelines, multiphysics solvers, artificial intelligence, big data cybernetics, data processing and management tools bring the promise of digital twins and thei…",
+    "relevance": "这篇论文探讨的是工程与计算科学领域中\"数字孪生\"（Digital Twin）的建模技术，涉及虚拟仿真、人工智能与大数据等主题，与用户三个研究方向（语言评估与权力、课堂互动与中介、教师与制度研究）均无实质关联。该论文既不涉及应用语言学、语言教育，也不涉及社会文化理论或批判话语分析等相关理论框架，因此不具备参考价值。",
+    "doi": "https://doi.org/10.1109/access.2020.2970143",
+    "added_date": "2026-04-13",
+    "id": "2026-04-13-1"
+  },
+  {
+    "title": "Evaluation and mitigation of the limitations of large language models in clinical decision-making",
+    "author": "Paul Hager, Friederike Jungmann, Robbie Holland et al.",
+    "journal": "Nature Medicine",
+    "year": 2024,
+    "citations": 472,
+    "abstract": "Clinical decision-making is one of the most impactful parts of a physician&#x27;s responsibilities and stands to benefit greatly from artificial intelligence solutions and large language models (LLMs) in particular. However, while LLMs have achieved excellent performance on medical licensing exams, these tests fail to assess many skills necessary for deployment in a realistic clinical decision-making e…",
+    "relevance": "这篇论文聚焦于大语言模型在临床医学决策中的局限性评估与改进，属于人工智能与医学交叉领域的研究。它与用户的三个研究方向均无直接关联：既不涉及语言评估中的权力与公正问题，也不涉及课堂互动与语言中介过程，更不涉及教师身份或双语教育制度。唯一可能的微弱联系在于该研究对\"评估\"（evaluation）局限性的反思——即标准化考试未能测量真实情境中所需的能力——这与用户方向一中对AP Chinese等标准化语言测试效度及washback",
+    "doi": "https://doi.org/10.1038/s41591-024-03097-1",
+    "added_date": "2026-04-13",
+    "id": "2026-04-13-0"
+  },
+  {
     "title": "A Sociocultural Perspective on English-as-a-Foreign-Language (EFL) Teachers’ Cognitions About Form-Focused Instruction",
     "author": "Sun Qiang, Lawrence Jun Zhang",
     "journal": "Frontiers in Psychology",
