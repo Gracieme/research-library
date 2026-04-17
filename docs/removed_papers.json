@@ -63,5 +63,18 @@
     "added_date": "2026-03-24",
     "id": "2026-03-24-2",
     "removed_reason": "uses scholar.google.com proxy instead of real DOI"
+  },
+  {
+    "title": "Marked and unmarked translanguaging in accelerated, mainstream, and sheltered English classrooms",
+    "author": "Ingrid Rodrick Beiler",
+    "journal": "Multilingua",
+    "year": 2020,
+    "citations": 74,
+    "abstract": "Abstract Translanguaging has gained prominence as a way to understand multilingual practices and draw on these in additional language teaching, but questions remain regarding its application in various educational contexts. This study investigates the significance of translanguaging across instructional settings by comparing discourses of markedness in accelerated, mainstream, and sheltered classe…",
+    "relevance": "该研究聚焦于不同英语课堂教学环境中translanguaging的\"有标记\"与\"无标记\"使用，直接关联方向二中translanguaging与课堂互动的核心议题，探讨多语实践如何在不同教学情境中被中介和协商。同时，研究比较了加速班、主流班与庇护班中语言多数群体与少数群体学生的差异化经验，涉及语言权力与制度性分层，这与方向一中语言权力及批评话语分析（CDA）的关注点相呼应，也触及方向三中同一教师在不同制度化课堂设置下",
+    "doi": "https://doi.org/10.1515/multi-2020-0022",
+    "added_date": "2026-03-30",
+    "id": "2026-03-30-2",
+    "removed_reason": "DOI returns 404"
   }
 ]
