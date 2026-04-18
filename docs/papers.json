@@ -1,5 +1,41 @@
 [
   {
+    "title": "How digitalization reinvented entrepreneurial resilience during COVID-19",
+    "author": "Susana C. Santos, Eric W. Liguori, Erin M. Garvey",
+    "journal": "Technological Forecasting and Social Change",
+    "year": 2023,
+    "citations": 132,
+    "abstract": "",
+    "relevance": "这篇论文关注数字化情境下创业者韧性（resilience）的重构，属于创业学/管理学领域，与你的应用语言学研究在学科归属、理论资源和研究对象上均无直接交集。虽然\"resilience\"概念表面上可与你Teacher Vulnerability/DLI稿件中教师情感韧性的讨论产生联想，但该文的分析单元是企业家行为而非制度话语或身份建构，其理论框架和方法路径无法迁移到你当前任何一条研究主线。",
+    "doi": "https://doi.org/10.1016/j.techfore.2023.122398",
+    "added_date": "2026-04-18",
+    "id": "2026-04-18-2"
+  },
+  {
+    "title": "“Distinguished” women entrepreneurs in the digital economy and the multitasking whirlpool",
+    "author": "Irene Kamberidou",
+    "journal": "Journal of Innovation and Entrepreneurship",
+    "year": 2020,
+    "citations": 203,
+    "abstract": "Abstract How are women entrepreneurs transforming and challenging traditional understandings of professional success in the 21st century, despite the multitasking whirlpool ? What type of knowledge and skills are required in today’s digital world to develop professionally and succeed as an entrepreneur? What are the major barriers to successful entrepreneurship preventing women from realizing thei…",
+    "relevance": "这篇论文关注女性创业者在数字经济中的身份建构与制度性障碍，与你今日主线中\"identity\"和\"institutional discourse\"有表层词汇重叠，但其学科根基在创业学与性别研究，并非教育语言政策或课堂话语分析领域，与你五篇活跃稿件（尤其Teacher Vulnerability / DLI、Beyond Deficit / Xiaohongshu）的语言学理论关切距离较远，属于仅部分主题相关。",
+    "doi": "https://doi.org/10.1186/s13731-020-0114-y",
+    "added_date": "2026-04-18",
+    "id": "2026-04-18-1"
+  },
+  {
+    "title": "Towards a New Conceptual Model of AI-Enhanced Learning for College Students: The Roles of Artificial Intelligence Capabilities, General Self-Efficacy, Learning Motivation, and Critical Thinking Awareness",
+    "author": "Xi-Hui Jia, Jui-Che Tu",
+    "journal": "Systems",
+    "year": 2024,
+    "citations": 136,
+    "abstract": "In the aftermath of the COVID-19 pandemic, college students have faced various challenges that could negatively impact their critical thinking abilities due to disruptions to education, increased stress and anxiety, less social interaction, and the advancement of distance learning relying more heavily on digital tools. With the increasing integration of AI technology across sectors, higher educati…",
+    "relevance": "这篇论文关注AI能力对大学生学习动机、自我效能与批判性思维的结构模型，属于教育技术与学习心理的量化建模研究，与你今日主线（teacher identity, institutional discourse, emotion）以及活跃稿件的批判话语/语言政策取向几乎没有直接交集。它既不处理教师身份或制度话语，也不涉及语言如何分配权力的问题意识。",
+    "doi": "https://doi.org/10.3390/systems12030074",
+    "added_date": "2026-04-18",
+    "id": "2026-04-18-0"
+  },
+  {
     "title": "Epistemic (in)justice in English medium instruction: transnational teachers’ and students’ negotiation of knowledge participation through translanguaging",
     "author": "Yongyan Zheng, Yixi Qiu",
     "journal": "Language and Education",
