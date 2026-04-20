@@ -1,5 +1,41 @@
 [
   {
+    "title": "Global Englishes Language Teaching: Bottom‐up Curriculum Implementation",
+    "author": "Nicola Galloway, Takuya Numajiri",
+    "journal": "TESOL Quarterly",
+    "year": 2019,
+    "citations": 132,
+    "abstract": "In today&#x27;s globalised world, the needs of English language learners have changed, particularly those learning to use the English language as a lingua franca. Growing research showcasing the global use of English as a lingua franca (ELF), the creativity of ELF users, and the diverse ways in which they negotiate successful communication in multilingual encounters has numerous implications for the fi…",
+    "relevance": "这篇论文与你今日主线（AP Chinese assessment, metalinguistic asymmetry, epistemic authority）的直接关联较弱，但在制度性论证层面有可借鉴之处：它聚焦的是一线教师如何在既有课程制度框架内\"自下而上\"地协商和实施替代性语言教学理念（GELT），这与你在AP Chinese稿件中需要论证的\"考试文件如何自上而下预设语言规范、教师与学生在制度缝隙中的能动性受限\"形成镜像对照，可以帮助你更精确地界定制度批判的边界——即区分\"制度文件本身的意识形态取向\"与\"实践者对制度的回应空间\"。",
+    "doi": "https://doi.org/10.1002/tesq.547",
+    "added_date": "2026-04-20",
+    "id": "2026-04-20-2"
+  },
+  {
+    "title": "Towards a Comprehensive, Empirical Model of Language Assessment Literacy across Stakeholder Groups: Developing the Language Assessment Literacy Survey",
+    "author": "Benjamin Kremmel, Luke Harding",
+    "journal": "Language Assessment Quarterly",
+    "year": 2019,
+    "citations": 184,
+    "abstract": "While scholars have proposed different models of language assessment literacy (LAL), these models have mostly comprised prescribed sets of components based on principles of good practice. As such, these models remain theoretical in nature, and represent the perspectives of language assessment researchers rather than stakeholders themselves. The project from which the current study is drawn was des…",
+    "relevance": "这篇论文与你今日主线\"AP Chinese assessment, metalinguistic asymmetry, and epistemic authority\"的关联主要在制度性论证的层面，而非直接的主题层：它试图从经验数据（而非研究者预设）出发重新界定\"谁的评估素养算数\"，这与你在LAQ稿件中追问\"谁的语言知识在AP评估框架中被赋予认识论权威\"形成可对话的问题意识——都是在质疑评估话语中知识权力的分配前提。",
+    "doi": "https://doi.org/10.1080/15434303.2019.1674855",
+    "added_date": "2026-04-20",
+    "id": "2026-04-20-1"
+  },
+  {
+    "title": "Social Presence: Conceptualization and Measurement",
+    "author": "Karel Kreijns, Kate M. Xu, Joshua Weidlich",
+    "journal": "Educational Psychology Review",
+    "year": 2021,
+    "citations": 321,
+    "abstract": "Social presence is an important construct in online group learning. It influences the way how social interaction unfolds online and affects learning and social outcomes. However, what precisely social presence is has been under debate, as presently a plethora of different definitions and measures exist preventing the development of a coherent research field regarding social presence and its defini…",
+    "relevance": "这篇论文聚焦在线学习中\"社会临场感\"的概念化与测量争议，与你今日主线（AP Chinese assessment、元语言不对称、认识权威）以及活跃稿件的核心议题均无直接交集——它既不涉及语言评估政策、制度性权力分配，也不处理课堂互动中的认识权威协商。",
+    "doi": "https://doi.org/10.1007/s10648-021-09623-8",
+    "added_date": "2026-04-20",
+    "id": "2026-04-20-0"
+  },
+  {
     "title": "Students’ low proficiency in spoken English in private universities in Bangladesh: reasons and remedies",
     "author": "Md Shaiful Islam, Mahani Stapa",
     "journal": "Language Testing in Asia",
