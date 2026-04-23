@@ -1,5 +1,41 @@
 [
   {
+    "title": "Teaching in the Age of Covid-19",
+    "author": "Petar Jandrić, David L. Hayes, Ian Truelove et al.",
+    "journal": "Postdigital Science and Education",
+    "year": 2020,
+    "citations": 229,
+    "abstract": "",
+    "relevance": "这篇论文标题指向COVID-19时期的教学经历，与你今日主线\"Teacher vulnerability, dual language immersion, and institutional discourse\"在教师处境与制度压力层面有表面关联——疫情本身构成了一种制度性危机语境，可能放大教师的脆弱性。但由于摘要缺失，无法判断该文是否深入到制度话语分析或结构层面的权力机制，还是仅停留在教师经验的描述性叙事。",
+    "doi": "https://doi.org/10.1007/s42438-020-00169-6",
+    "added_date": "2026-04-23",
+    "id": "2026-04-23-2"
+  },
+  {
+    "title": "Critical consciousness in children and adolescents: A systematic review, critical assessment, and recommendations for future research.",
+    "author": "Amy Heberle, Luke J. Rapa, Flóra Faragó",
+    "journal": "Psychological Bulletin",
+    "year": 2020,
+    "citations": 290,
+    "abstract": "Critical consciousness refers to an individual&#x27;s awareness of oppressive systemic forces in society, a sense of efficacy to work against oppression, and engagement in individual or collective action against oppression. In the past few decades, interest in critical consciousness as a resource that may promote thriving in marginalized people has grown tremendously. This article critically examines t…",
+    "relevance": "这篇论文与你今日主线\"Teacher vulnerability, dual language immersion, and institutional discourse\"的关联是间接的、理论层面的：批判意识（critical consciousness）作为概念工具，可以为你分析DLI教师如何从个人脆弱体验中发展出对制度性压迫力量的结构性认知提供一个理论锚点——尤其是其中关于\"从意识到行动\"的分析框架，可能帮助你把教师叙事从\"我经历了什么\"提升到\"这种经历反映了怎样的制度逻辑\"。",
+    "doi": "https://doi.org/10.1037/bul0000230",
+    "added_date": "2026-04-23",
+    "id": "2026-04-23-1"
+  },
+  {
+    "title": "Prejudice Reduction: Progress and Challenges",
+    "author": "Elizabeth Levy Paluck, Roni Porat, Chelsey S. Clark et al.",
+    "journal": "Annual Review of Psychology",
+    "year": 2020,
+    "citations": 660,
+    "abstract": "The past decade has seen rapid growth in research that evaluates methods for reducing prejudice. This essay reviews 418 experiments reported in 309 manuscripts from 2007 to 2019 to assess which approaches work best and why. Our quantitative assessment uses meta-analysis to estimate average effects. Our qualitative assessment calls attention to landmark studies that are noteworthy for sustained int…",
+    "relevance": "这篇论文属于社会心理学领域的偏见减少元分析综述，与你今日主线\"Teacher vulnerability, dual language immersion, and institutional discourse\"的关联仅停留在极为间接的主题层面——双语沉浸教师可能面临制度性偏见，但该文并未触及教育语言政策、教师处境或话语分析中的任何核心概念。",
+    "doi": "https://doi.org/10.1146/annurev-psych-071620-030619",
+    "added_date": "2026-04-23",
+    "id": "2026-04-23-0"
+  },
+  {
     "title": "The Contributions of Conversation Analysis and Interactional Linguistics to a Usage‐Based Understanding of Language: Expanding the Transdisciplinary Framework",
     "author": "Joan Kelly Hall",
     "journal": "Modern Language Journal",
