@@ -1,5 +1,29 @@
 [
   {
+    "title": "The (white) ears of Ofsted: A raciolinguistic perspective on the listening practices of the schools inspectorate",
+    "author": "Ian Cushing, Julia Snell",
+    "journal": "Language in Society",
+    "year": 2022,
+    "citations": 116,
+    "abstract": "Abstract England has had a schools inspectorate since 1839, first in the form of Her Majesty&#x27;s Inspectorate (HMI), and since 1992, in the form of the Office for Standards in Education, Children&#x27;s Services and Skills (Ofsted). The inspectorate, a workforce made up of a majority of white inspectors, conduct regular inspections of all state schools in England, producing reports which comment on vario…",
+    "relevance": "这篇论文直接对应你今日\"language policy, ideology, and critical discourse\"主线，并且与你\"Teacher Vulnerability / DLI\"及\"Beyond Deficit\"两条稿件高度共振——它聚焦的是一个制度性评估机构（Ofsted）如何通过听觉实践将种族化的语言意识形态嵌入学校督导报告，从而对教师与学生的口语表现施加规训权力，这与你关注的评估文件分配权力、教师制度处境以及deficit话语的运作逻辑一脉相通。",
+    "doi": "https://doi.org/10.1017/s0047404522000094",
+    "added_date": "2026-04-26",
+    "id": "2026-04-26-1"
+  },
+  {
+    "title": "Should ChatGPT be biased? Challenges and risks of bias in large language models",
+    "author": "Emilio Ferrara",
+    "journal": "First Monday",
+    "year": 2023,
+    "citations": 193,
+    "abstract": "As generative language models, exemplified by ChatGPT, continue to advance in their capabilities, the spotlight on biases inherent in these models intensifies. This paper delves into the distinctive challenges and risks associated with biases specifically in large-scale language models. We explore the origins of biases, stemming from factors such as training data, model specifications, algorithmic…",
+    "relevance": "这篇论文讨论大型语言模型中的偏见来源及其伦理风险，属于技术伦理与AI治理范畴，与你的核心研究主线——语言政策、意识形态与批判话语——仅有表层概念关联（如\"bias\"\"ideology\"），但其问题域并不直接涉及教育语言政策、课堂互动或评估话语中的权力分配。它与你的任何一篇活跃稿件均缺乏直接对话点。",
+    "doi": "https://doi.org/10.5210/fm.v28i11.13346",
+    "added_date": "2026-04-26",
+    "id": "2026-04-26-0"
+  },
+  {
     "title": "Teaching in the Age of Covid-19",
     "author": "Petar Jandrić, David L. Hayes, Ian Truelove et al.",
     "journal": "Postdigital Science and Education",
