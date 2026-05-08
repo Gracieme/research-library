@@ -1,5 +1,41 @@
 [
   {
+    "title": "Mapping research in student engagement and educational technology in higher education: a systematic evidence map",
+    "author": "Melissa Bond, Katja Buntins, Svenja Bedenlier et al.",
+    "journal": "International Journal of Educational Technology in Higher Education",
+    "year": 2020,
+    "citations": 906,
+    "abstract": "Abstract Digital technology has become a central aspect of higher education, inherently affecting all aspects of the student experience. It has also been linked to an increase in behavioural, affective and cognitive student engagement, the facilitation of which is a central concern of educators. In order to delineate the complex nexus of technology and student engagement, this article systematical…",
+    "relevance": "这篇论文是一篇关于高等教育中学生参与度（student engagement）与教育技术之间关系的系统证据图谱综述，与你今日\"classroom interaction, mediation, and participation\"主线仅在\"participation/engagement\"这一宽泛概念层有表面交集，但实质关联度较低——它处理的是技术工具与学生参与的宏观映射，而非课堂互动中参与如何作为微观机制被构建，与你关注的互动数据如何写成机制的写作目标几乎不对接。",
+    "doi": "https://doi.org/10.1186/s41239-019-0176-8",
+    "added_date": "2026-05-08",
+    "id": "2026-05-08-2"
+  },
+  {
+    "title": "The social determinants of mental health and disorder: evidence, prevention and recommendations",
+    "author": "James B. Kirkbride, Deidre M. Anglin, Ian Colman et al.",
+    "journal": "World Psychiatry",
+    "year": 2024,
+    "citations": 930,
+    "abstract": "People exposed to more unfavourable social circumstances are more vulnerable to poor mental health over their life course, in ways that are often determined by structural factors which generate and perpetuate intergenerational cycles of disadvantage and poor health. Addressing these challenges is an imperative matter of social justice. In this paper we provide a roadmap to address the social deter…",
+    "relevance": "这篇论文属于公共卫生与社会决定因素领域，与你当前应用语言学方向的课堂互动、中介与参与研究主线没有实质性关联。虽然\"结构性因素如何塑造弱势群体的处境\"这一逻辑与你关注的语言政策、教师脆弱性研究在批判视角上有远距离呼应，但它既不涉及语言/话语数据，也不提供可迁移的互动分析方法或理论框架。唯一可能的微弱借鉴在于其\"问题意识的写法\"——论文将社会不公正从个体层面上升到结构性因果机制的论证策略，与你在 Teacher Vulnerability / Beyond Deficit 稿件中需要的\"把制度性问题写得尖锐但有证据支撑\"的修辞目标有写法层面的参考价值，但这一点也相当间接。总体判断：不相关或仅边缘相关。",
+    "doi": "https://doi.org/10.1002/wps.21160",
+    "added_date": "2026-05-08",
+    "id": "2026-05-08-1"
+  },
+  {
+    "title": "Basic psychological need theory: Advancements, critical themes, and future directions",
+    "author": "Maarten Vansteenkiste, Richard M. Ryan, Bart Soenens",
+    "journal": "Motivation and Emotion",
+    "year": 2020,
+    "citations": 1628,
+    "abstract": "",
+    "relevance": "这篇论文聚焦自我决定理论中的基本心理需要理论（BPNT），属于动机心理学的理论综述，与你今日主线\"classroom interaction, mediation, and participation\"的关联仅停留在外围概念层——需要满足（autonomy, competence, relatedness）可以作为解释课堂参与动机的一个背景变量，但它本身并不处理互动数据、话语机制或语言教育政策中的权力分配问题，与你活跃稿件的核心问题意识距离较远。",
+    "doi": "https://doi.org/10.1007/s11031-019-09818-1",
+    "added_date": "2026-05-08",
+    "id": "2026-05-08-0"
+  },
+  {
     "title": "The Problematic Concept of Native Speaker in Psycholinguistics: Replacing Vague and Harmful Terminology With Inclusive and Accurate Measures",
     "author": "Lauretta S. P. Cheng, Danielle Burgess, Natasha Vernooij et al.",
     "journal": "Frontiers in Psychology",
