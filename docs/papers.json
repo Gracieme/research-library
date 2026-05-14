@@ -1,5 +1,41 @@
 [
   {
+    "title": "Methods in predictive techniques for mental health status on social media: a critical review",
+    "author": "Stevie Chancellor, Munmun De Choudhury",
+    "journal": "npj Digital Medicine",
+    "year": 2020,
+    "citations": 506,
+    "abstract": "Social media is now being used to model mental well-being, and for understanding health outcomes. Computer scientists are now using quantitative techniques to predict the presence of specific mental disorders and symptomatology, such as depression, suicidality, and anxiety. This research promises great benefits to monitoring efforts, diagnostics, and intervention design for these mental health sta…",
+    "relevance": "这篇论文关注的是计算机科学领域利用社交媒体数据预测心理健康状态的方法论评估，与你今日主线\"社交平台多模态话语、可供性与身份建构\"仅在\"以社交媒体为数据来源\"这一表层相交，核心问题意识（预测性建模的效度审查）和理论立场（计算社会科学/临床心理）与你的批判话语-翻译语言实践框架差距很大，属于边缘相关。",
+    "doi": "https://doi.org/10.1038/s41746-020-0233-7",
+    "added_date": "2026-05-14",
+    "id": "2026-05-14-2"
+  },
+  {
+    "title": "The Emergence of Deepfake Technology: A Review",
+    "author": "Mika Westerlund",
+    "journal": "Technology Innovation Management Review",
+    "year": 2019,
+    "citations": 996,
+    "abstract": "IntroductionIn recent years, fake news has become an issue that is a threat to public discourse, human society, and democracy (Borges et al., 2018; Qayyum et al., 2019). Fake news refers to fictitious news style content that is fabricated to deceive the public (Aldwairi & Alwahedi, 2018; Jang & Kim, 2018). False information spreads quickly through social media, where it can",
+    "relevance": "这篇论文关注深度伪造（deepfake）技术的综述，属于计算机科学与信息安全领域，与你今日主线\"社交平台多模态话语、可供性与身份建构\"仅在\"社交媒体上的虚假内容传播\"这一极表层话题上有交集，但它既不涉及语言学分析框架，也不处理平台可供性如何塑造用户话语实践或身份协商，与你的Xiaohongshu稿件在理论关切、方法路径和分析对象上均无实质关联。",
+    "doi": "https://doi.org/10.22215/timreview/1282",
+    "added_date": "2026-05-14",
+    "id": "2026-05-14-1"
+  },
+  {
+    "title": "The growing field of digital psychiatry: current evidence and the future of apps, social media, chatbots, and virtual reality",
+    "author": "John Torous, Sandra Bucci, Imogen Bell et al.",
+    "journal": "World Psychiatry",
+    "year": 2021,
+    "citations": 1068,
+    "abstract": "As the COVID-19 pandemic has largely increased the utilization of telehealth, mobile mental health technologies - such as smartphone apps, vir-tual reality, chatbots, and social media - have also gained attention. These digital health technologies offer the potential of accessible and scalable interventions that can augment traditional care. In this paper, we provide a comprehensive update on the …",
+    "relevance": "这篇论文属于数字健康/数字精神医学领域的综述，与你今日主线\"社交平台多模态话语、可供性与身份建构\"仅在\"社交媒体作为研究场域\"这一最表层重叠，其核心关切（临床干预效果、心理健康技术的可扩展性）与你的批判话语分析和translanguaging框架几乎没有对话空间。唯一可借鉴之处在于它对平台可供性（apps、chatbots、VR、社交媒体）进行分类梳理的写法——你在Beyond Deficit稿件中需要把小红书的图文、视频、评论区、标签等可供性写成\"可分析的数据链\"，而这篇综述展示了一种将不同技术载体的功能差异系统化呈现的结构策略，可以作为\"如何把平台特征从背景提升为分析对象\"的远距离参照，但其问题意识、理论工具和方法设计均不直接适用于你的研究。",
+    "doi": "https://doi.org/10.1002/wps.20883",
+    "added_date": "2026-05-14",
+    "id": "2026-05-14-0"
+  },
+  {
     "title": "The digital competence of university students: a systematic literature review",
     "author": "Anna Sánchez-Caballé, Mercé Gisbert Cervera, Francesc M. Esteve‐Mon",
     "journal": "Aloma Revista de Psicologia Ciències de l Educació i de l Esport",
