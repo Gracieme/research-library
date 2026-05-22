@@ -1,5 +1,41 @@
 [
   {
+    "title": "Understanding and shaping the future of work with self-determination theory",
+    "author": "Marylène Gagné, Sharon K. Parker, Mark Griffin et al.",
+    "journal": "Nature Reviews Psychology",
+    "year": 2022,
+    "citations": 354,
+    "abstract": "",
+    "relevance": "这篇论文与你今日主线\"Teacher vulnerability, dual language immersion, and institutional discourse\"有直接的理论框架层关联。自我决定理论（SDT）中的自主、胜任和归属三个基本心理需求，恰好可以作为你分析DLI教师在制度话语中\"脆弱性\"来源的理论透镜——教师感到vulnerable，往往正是因为制度环境系统性地压缩了其自主空间、否定其专业胜任感或切断其归属联结。",
+    "doi": "https://doi.org/10.1038/s44159-022-00056-w",
+    "added_date": "2026-05-22",
+    "id": "2026-05-22-2"
+  },
+  {
+    "title": "“Extending the Technology Acceptance Model (TAM) to Predict University Students’ Intentions to Use Metaverse-Based Learning Platforms”",
+    "author": "Ahmad Samed Al‐Adwan, Na Li, Amer Al-Adwan et al.",
+    "journal": "Education and Information Technologies",
+    "year": 2023,
+    "citations": 543,
+    "abstract": "Metaverse, which combines a number of information technologies, is the Internet of the future. A media for immersive learning, metaverse could set future educational trends and lead to significant reform in education. Although the metaverse has the potential to improve the effectiveness of online learning experiences, metaverse-based educational implementations are still in their infancy. Addition…",
+    "relevance": "这篇论文与你今日主线（teacher vulnerability, dual language immersion, institutional discourse）以及活跃稿件均无实质关联。它聚焦于技术接受模型在元宇宙学习平台中的量化扩展，属于教育技术采纳研究，既不涉及语言政策、制度话语或教师处境，也不涉及批判话语分析或质性方法论。",
+    "doi": "https://doi.org/10.1007/s10639-023-11816-3",
+    "added_date": "2026-05-22",
+    "id": "2026-05-22-1"
+  },
+  {
+    "title": "A Metaverse: Taxonomy, Components, Applications, and Open Challenges",
+    "author": "Sangmin Park, Young‐Gab Kim",
+    "journal": "IEEE Access",
+    "year": 2022,
+    "citations": 1738,
+    "abstract": "Unlike previous studies on the Metaverse based on Second Life, the current Metaverse is based on the social value of Generation Z that online and offline selves are not different. With the technological development of deep learning-based high-precision recognition models and natural generation models, Metaverse is being strengthened with various factors, from mobile-based always-on access to conne…",
+    "relevance": "这篇论文与你今日的研究主线（teacher vulnerability, dual language immersion, institutional discourse）以及更广泛的应用语言学与批判话语研究几乎没有实质关联。它聚焦于元宇宙的技术分类体系（深度学习模型、虚拟货币、数字孪生等），既不涉及语言教育政策、教师身份与制度话语，也不提供可迁移的理论框架或方法论资源。唯一可能的远端联系是其对\"线上与线下自我不可分割\"这一Generation Z社会价值观的提及，但该论文并未从话语分析或身份建构角度展开，因此对你当前需要强化的\"把个人经历转化为结构分析\"的写作能力也无借鉴价值。",
+    "doi": "https://doi.org/10.1109/access.2021.3140175",
+    "added_date": "2026-05-22",
+    "id": "2026-05-22-0"
+  },
+  {
     "title": "Sustaining Critical Approaches to Translanguaging in Education: A Contextual Framework",
     "author": "Anna Mendoza, Laura Hamman‐Ortiz, Zhongfeng Tian et al.",
     "journal": "TESOL Quarterly",
