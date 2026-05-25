@@ -1,5 +1,41 @@
 [
   {
+    "title": "Mobile Augmented Reality and Language‐Related Episodes",
+    "author": "Tetyana Sydorenko, John Hellermann, Steven L. Thorne et al.",
+    "journal": "TESOL Quarterly",
+    "year": 2019,
+    "citations": 91,
+    "abstract": "Applications of locative media (e.g., place‐based mobile augmented reality [ AR ]) are used in various educational content areas and have been shown to provide learners with valuable opportunities for investigation‐based learning, location‐situated social and collaborative interaction, and embodied experience of place (Squire, 2009; Thorne &amp; Hellermann, 2017; Zheng et al., 2018). Mobile locati…",
+    "relevance": "这篇论文关注移动增强现实（AR）环境中的语言相关片段（LREs），属于技术辅助语言学习（TALL）与互动研究的交叉领域。它与你今日主线\"数字第三空间中的translanguaging与身份建构\"仅在\"数字/技术中介的语言实践\"这一宽泛层面相关，但在核心关切上差异明显：该研究聚焦的是SLA互动框架下的LRE构念与任务设计，而非translanguaging的功能分类、多模态符号资源或身份论证。",
+    "doi": "https://doi.org/10.1002/tesq.507",
+    "added_date": "2026-05-25",
+    "id": "2026-05-25-2"
+  },
+  {
+    "title": "Distributed agency in second language learning and teaching through generative AI",
+    "author": "Robert Godwin‐Jones",
+    "journal": "Language learning & technology",
+    "year": 2024,
+    "citations": 59,
+    "abstract": "Generative AI offers significant opportunities for language learning. Tools like ChatGPT provide second language practice through chats in written or voice formats, with the learner specifying through prompts conversational parameters. AI can be instructed to give corrective feedback and create practice exercises. Using AI, instructors can build learning and assessment materials in a variety of me…",
+    "relevance": "这篇论文讨论生成式AI在二语学习与教学中的\"distributed agency\"，核心关切在于技术如何重新分配学习者与教师的能动性——这与你今日主线（Xiaohongshu上的translanguaging与身份建构）在\"数字空间中的agency分配\"层面有概念上的间接关联，但它聚焦的是AI工具而非社交平台的多模态话语实践，既不涉及translanguaging的功能分类，也不处理平台affordance如何塑造身份，因此只是边缘相关。",
+    "doi": "https://doi.org/10.64152/10125/73570",
+    "added_date": "2026-05-25",
+    "id": "2026-05-25-1"
+  },
+  {
+    "title": "Translanguaging and embodied teaching and learning: lessons from a multilingual karate club in London",
+    "author": "Zhu Hua, Li Wei, Daria Jankowicz-Pytel",
+    "journal": "International Journal of Bilingual Education and Bilingualism",
+    "year": 2019,
+    "citations": 89,
+    "abstract": "The purpose of this article is to explore the role of embodied repertories in teaching and learning in a multi-ethnic karate club in East London and its implications for language teaching and learning. We do so through the lens of translanguaging and apply the concept of translanguaging space where diverse semiotic systems are integrated and orchestrated. Through a close examination of how teachin…",
+    "relevance": "这篇论文与你今日主线\"digital third spaces中的translanguaging与identity work\"共享translanguaging space这一核心理论透镜，但其语境（线下武术俱乐部的具身互动）与你的数字平台多模态分析差异显著，属于理论框架层的间接相关而非直接对话对象。",
+    "doi": "https://doi.org/10.1080/13670050.2019.1599811",
+    "added_date": "2026-05-25",
+    "id": "2026-05-25-0"
+  },
+  {
     "title": "What can interactional sociolinguistics bring to the family language policy research table? The case of a Malay family in Singapore",
     "author": "Seyed Hadi Mirvahedi",
     "journal": "Journal of Multilingual and Multicultural Development",
