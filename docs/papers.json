@@ -1,5 +1,41 @@
 [
   {
+    "title": "The Perfect Storm: A Developmental–Sociocultural Framework for the Role of Social Media in Adolescent Girls’ Body Image Concerns and Mental Health",
+    "author": "Sophia Choukas‐Bradley, Savannah R. Roberts, Anne J. Maheux et al.",
+    "journal": "Clinical Child and Family Psychology Review",
+    "year": 2022,
+    "citations": 288,
+    "abstract": "",
+    "relevance": "这篇论文聚焦社交媒体对青少年女孩身体意象与心理健康的影响，提出\"发展-社会文化\"整合框架，与你的研究主线（classroom interaction, mediation, participation）几乎没有直接交集；它与你活跃稿件中最接近的\"Beyond Deficit / Xiaohongshu\"仅在\"社交平台话语如何塑造身份\"这一层有微弱的主题关联，但其关注对象（青少年心理健康）、理论根基（发展心理学×社会文化心理学）和数据类型都与你的批判话语/多模态分析取向不同。",
+    "doi": "https://doi.org/10.1007/s10567-022-00404-5",
+    "added_date": "2026-06-05",
+    "id": "2026-06-05-2"
+  },
+  {
+    "title": "Thinking through other minds: A variational approach to cognition and culture",
+    "author": "Samuel P. L. Veissière, Axel Constant, Maxwell J. D. Ramstead et al.",
+    "journal": "Behavioral and Brain Sciences",
+    "year": 2019,
+    "citations": 359,
+    "abstract": "The processes underwriting the acquisition of culture remain unclear. How are shared habits, norms, and expectations learned and maintained with precision and reliability across large-scale sociocultural ensembles? Is there a unifying account of the mechanisms involved in the acquisition of culture? Notions such as \"shared expectations,\" the \"selective patterning of attention and behaviour,\" \"cult…",
+    "relevance": "这篇论文探讨文化习得的认知机制，试图用变分推理（variational inference）统一解释共享期望、注意力模式化与隐性学习等概念，与你今日主线\"课堂互动、中介与参与\"的直接关联较弱——它处于认知科学与文化理论的元层面，而非课堂交互数据的实证分析层面。",
+    "doi": "https://doi.org/10.1017/s0140525x19001213",
+    "added_date": "2026-06-05",
+    "id": "2026-06-05-1"
+  },
+  {
+    "title": "Rethinking the entwinement between artificial intelligence and human learning: What capabilities do learners need for a world with AI?",
+    "author": "Lina Markauskaitė, Rebecca Marrone, Oleksandra Poquet et al.",
+    "journal": "Computers and Education Artificial Intelligence",
+    "year": 2022,
+    "citations": 309,
+    "abstract": "The proliferation of AI in many aspects of human life—from personal leisure, to collaborative professional work, to global policy decisions—poses a sharp question about how to prepare people for an interconnected, fast-changing world which is increasingly becoming saturated with technological devices and agentic machines. What kinds of capabilities do people need in a world infused with AI? How ca…",
+    "relevance": "这篇论文讨论AI时代学习者所需能力及其对话性概念化，属于宏观教育哲学层面的思辨，与你今日主线\"classroom interaction, mediation, and participation\"仅在最宽泛的\"学习者能力发展\"层面有交集，并不直接涉及课堂互动数据的分析或参与机制的实证呈现。它对你活跃稿件中任何一篇的推进作用都相当有限。",
+    "doi": "https://doi.org/10.1016/j.caeai.2022.100056",
+    "added_date": "2026-06-05",
+    "id": "2026-06-05-0"
+  },
+  {
     "title": "Teacher professional identities and their impacts on translanguaging pedagogies in a STEM EMI classroom context in China: a nexus analysis",
     "author": "Amy Wanyu Ou, Mingyue Gu",
     "journal": "Language and Education",
