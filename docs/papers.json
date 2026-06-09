@@ -1,5 +1,41 @@
 [
   {
+    "title": "Application of Artificial Intelligence powered digital writing assistant in higher education: randomized controlled trial",
+    "author": "Nabi Nazari, Muhammad Salman Shabbir, Roy Setiawan",
+    "journal": "Heliyon",
+    "year": 2021,
+    "citations": 374,
+    "abstract": "A major challenge in educational technology integration is to engage students with different affective characteristics. Also, how technology shapes attitude and learning behavior is still lacking. Findings from educational psychology and learning sciences have gained less traction in research. The present study was conducted to examine the efficacy of a group format of an Artificial Intelligence (…",
+    "relevance": "这篇论文与你今日主线\"academic writing, feedback, and revision\"直接相关，因为它考察AI写作辅助工具对研究生英语学术写作的干预效果，涉及反馈机制如何影响写作表现与情感态度——这与你关注的写作反馈与修改过程在主题上高度吻合。",
+    "doi": "https://doi.org/10.1016/j.heliyon.2021.e07014",
+    "added_date": "2026-06-09",
+    "id": "2026-06-09-2"
+  },
+  {
+    "title": "Impact of ChatGPT on ESL students’ academic writing skills: a mixed methods intervention study",
+    "author": "Santosh Mahapatra",
+    "journal": "Smart Learning Environments",
+    "year": 2024,
+    "citations": 275,
+    "abstract": "Abstract This paper presents a study on the impact of ChatGPT as a formative feedback tool on the writing skills of undergraduate ESL students. Since artificial intelligence-driven automated writing evaluation tools positively impact students’ writing, ChatGPT, a generative artificial intelligence-propelled tool, can be expected to have a more substantial positive impact. However, very little empi…",
+    "relevance": "这篇论文最贴近你今日的\"academic writing, feedback, and revision\"扫描主线，具体切入的是AI生成反馈对ESL学生写作的干预效果，与你关注的评估如何分配权力、塑造学习实践的大框架有间接关联，但其理论深度可能停留在工具效用层面，未触及你核心关心的批判话语或语言政策维度。",
+    "doi": "https://doi.org/10.1186/s40561-024-00295-9",
+    "added_date": "2026-06-09",
+    "id": "2026-06-09-1"
+  },
+  {
+    "title": "Human-AI collaboration patterns in AI-assisted academic writing",
+    "author": "Andy Nguyen, Yvonne Hong, Belle Dang et al.",
+    "journal": "Studies in Higher Education",
+    "year": 2024,
+    "citations": 287,
+    "abstract": "Artificial Intelligence (AI) has increasingly influenced higher education, notably in academic writing where AI-powered assisting tools offer both opportunities and challenges.Recently, the rapid growth of generative AI (GAI) has brought its impacts into sharper focus, yet the dynamics of its utilisation in academic writing remain largely unexplored.This paper focuses on examining the nature of hu…",
+    "relevance": "这篇论文最贴近你今日的\"academic writing, feedback, and revision\"扫描主线，具体切入点是博士生与生成式AI工具协作写作时的互动策略与修改模式，与你关注的学术写作过程、反馈与修订链条直接对接，同时其\"人-AI协作\"框架也可延伸至你对数字平台实践中权力与能动性分配的长期关切。",
+    "doi": "https://doi.org/10.1080/03075079.2024.2323593",
+    "added_date": "2026-06-09",
+    "id": "2026-06-09-0"
+  },
+  {
     "title": "The continuity of learning in a translanguaging science classroom",
     "author": "Annika Karlsson, Pia Nygård Larsson, Anders Jakobsson",
     "journal": "Cultural Studies of Science Education",
