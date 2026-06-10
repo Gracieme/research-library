@@ -1,5 +1,41 @@
 [
   {
+    "title": "Exploring the affordances of multimodal competence, multichannel awareness and plurilingual lecturing in EMI",
+    "author": "Maria Sabaté Dalmau, Balbina Moncada-Comas",
+    "journal": "System",
+    "year": 2023,
+    "citations": 9,
+    "abstract": "In this paper we expand on a theoretical-methodological framework for micro sociolinguistic multimodal analysis of situated practices in English-Medium Instruction (EMI) research (Moncada-Comas, & Sabaté-Dalmau, in press). We examine an interaction of a lecturer and his 21 students in an engineering class at a Catalan university. Drawing from video/audio-recorded classroom interactions, interviews…",
+    "relevance": "这篇论文与你今日主线\"Translanguaging, identity negotiation, and action research in EMI classrooms\"在EMI课堂微观互动分析层面直接相关：它同样关注EMI教师如何在实际授课中调动超越单一英语的资源（多模态能力、多语实践），这与你稿件中translanguaging作为课堂转化实践的核心论点形成理论对话——尤其是它将translanguaging扩展到多模态与多渠道维度，可以帮助你在讨论部分定位自己研究的理论边界（你聚焦identity negotiation，而非multimodal competence）。",
+    "doi": "https://doi.org/10.1016/j.system.2023.103161",
+    "added_date": "2026-06-10",
+    "id": "2026-06-10-2"
+  },
+  {
+    "title": "CLIL teacher online professional development in translanguaging and trans-semiotizing: a pedagogy of multiliteracies",
+    "author": "Mercedes Querol-Julián",
+    "journal": "Journal of Multilingual and Multicultural Development",
+    "year": 2024,
+    "citations": 9,
+    "abstract": "Theories of translanguaging and trans-semiotizing have gained relevance in the design of learning in CLIL classrooms.However, while many studies have shown the benefits of these pedagogies, scarce research has explored CLIL teacher professional development (PD) in this field.In this paper, I intend to measure the effectiveness of an online pedagogy of multiliteracies, which embraces translanguagin…",
+    "relevance": "这篇论文与你今日主线\"Translanguaging, identity negotiation, and action research in EMI classrooms\"在理论资源上有交集（translanguaging + 课堂教学设计），但其核心关注点是教师职业发展项目的效果测量，而非课堂内身份协商或行动研究方法论，因此属于\"部分相关——共享理论术语但研究问题层不同\"的关系。",
+    "doi": "https://doi.org/10.1080/01434632.2024.2352157",
+    "added_date": "2026-06-10",
+    "id": "2026-06-10-1"
+  },
+  {
+    "title": "Creative translanguaging in formative assessment: Chinese teachers’ perceptions and practices in the primary EFL classroom",
+    "author": "Vincent Greenier, Liu Xiao-hua, Yangyu Xiao",
+    "journal": "Applied Linguistics Review",
+    "year": 2023,
+    "citations": 13,
+    "abstract": "Abstract In Chinese primary EFL classrooms, translanguaging between English and Chinese is commonly used by teachers and students out of need for efficient communication, however, this practice has been and is still widely believed to hinder students’ English development. Although recent studies have revealed the benefits translanguaging offers for teaching and learning, little has been done to un…",
+    "relevance": "这篇论文与你今日主线\"Translanguaging, identity negotiation, and action research in EMI classrooms\"在translanguaging教学实践层面直接相关，但其语境（中国小学EFL形成性评估）与你的EMI大学语法课堂存在显著差异；它更贴近你对中国教育语言政策如何塑造教师实践与感知的长期关注，而非今日稿件的核心身份协商问题。",
+    "doi": "https://doi.org/10.1515/applirev-2023-0085",
+    "added_date": "2026-06-10",
+    "id": "2026-06-10-0"
+  },
+  {
     "title": "Application of Artificial Intelligence powered digital writing assistant in higher education: randomized controlled trial",
     "author": "Nabi Nazari, Muhammad Salman Shabbir, Roy Setiawan",
     "journal": "Heliyon",
