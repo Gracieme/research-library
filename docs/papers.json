@@ -1,5 +1,41 @@
 [
   {
+    "title": "Tensions in an Identity‐Oriented Language Teaching Practicum: A Dialogic Approach",
+    "author": "Özgehan Uştuk, Bedrettin Yazan",
+    "journal": "TESOL Quarterly",
+    "year": 2023,
+    "citations": 45,
+    "abstract": "Abstract In this study, we examine how teacher candidates navigate the tensions in their identity work as they complete the activities in the TESOL practicum course in Turkiye. Using the Bakhtinian approach to teacher identity, we conceptually maintain that identity work inevitably involves tensions that teachers encounter during their professional lives. We use a qualitative case study design to …",
+    "relevance": "这篇论文直接对应你今日主线\"teacher identity, institutional discourse, and emotion\"中的教师身份与制度话语维度——它聚焦实习教师在TESOL课程制度框架下经历的身份张力，且以Bakhtin对话理论将个人叙事升格为结构性分析（dialogic tension不只是个人感受，而是制度声音与个人声音的碰撞），这与你\"Teacher Vulnerability / DLI\"稿件中教师在制度处境中的身份协商高度同构。",
+    "doi": "https://doi.org/10.1002/tesq.3234",
+    "added_date": "2026-06-13",
+    "id": "2026-06-13-2"
+  },
+  {
+    "title": "Mathematics identity research: the state of the art and future directions",
+    "author": "Mellony Graven, Einat Heyd‐Metzuyanim",
+    "journal": "ZDM",
+    "year": 2019,
+    "citations": 105,
+    "abstract": "Identity research in mathematics education has become increasingly prominent over the past two decades. In the last few years, there have been several reviews of identity literature in the field of mathematics education generally, or specifically focused on mathematics learner identities or mathematics teacher identity. We begin our paper by summarizing the key findings of these reviews, pointing …",
+    "relevance": "这篇论文是数学教育领域的身份研究综述，与你今日主线\"teacher identity, institutional discourse\"在身份理论层面有交叉，但学科语境（数学教育）和核心关切（数学学习者/教师的学科身份建构）与你聚焦的语言教育、制度话语及情感政治有明显距离，属于跨学科方法层的部分相关。",
+    "doi": "https://doi.org/10.1007/s11858-019-01050-y",
+    "added_date": "2026-06-13",
+    "id": "2026-06-13-1"
+  },
+  {
+    "title": "Emotion AI at Work: Implications for Workplace Surveillance, Emotional Labor, and Emotional Privacy",
+    "author": "Kat Roemmich, Florian Schaub, Nazanin Andalibi",
+    "journal": "—",
+    "year": 2023,
+    "citations": 101,
+    "abstract": "Workplaces are increasingly adopting emotion AI, promising benefits to organizations. However, little is known about the perceptions and experiences of workers subject to emotion AI in the workplace. Our interview study with (n=15) US adult workers addresses this gap, finding that (1) participants viewed emotion AI as a deep privacy violation over the privacy of workers’ sensitive emotional inform…",
+    "relevance": "这篇论文与你\"Teacher Vulnerability / DLI\"稿件及今日主线中\"institutional discourse and emotion\"最为贴近：它将职场情感AI监控解读为制度性权力对个体情感隐私的侵入，这与你关注的教师在制度处境中如何经历情感脆弱性（vulnerability）、被迫进行情感劳动（emotional labor）的问题意识高度同构——只是场景从学校换到了更广义的工作场所。",
+    "doi": "https://doi.org/10.1145/3544548.3580950",
+    "added_date": "2026-06-13",
+    "id": "2026-06-13-0"
+  },
+  {
     "title": "Society in digital contexts: New modes of identity and community construction",
     "author": "Najma Al Zidjaly",
     "journal": "Multilingua",
