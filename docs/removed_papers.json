@@ -115,5 +115,18 @@
     "added_date": "2026-05-12",
     "id": "2026-05-12-1",
     "removed_reason": "DOI returns 404"
+  },
+  {
+    "title": "Translanguaging as pedagogy in a Chinese complementary school in the UK",
+    "author": "Yan Chu",
+    "journal": "White Rose eTheses Online (University of Leeds, The University of Sheffield, University of York)",
+    "year": 2019,
+    "citations": 1,
+    "abstract": "This study investigates language teachers’ translanguaging practices in three Mandarin classes of a Chinese complementary school in the UK. It draws on the ideas of translanguaging as individuals’ deployment of their full linguistic repertoires, translanguaging as multimodal system, translanguaging as bilingual pedagogy, translanguaging as the embodiment of users’ sociocultural background, and exa…",
+    "relevance": "这篇论文与你今日主线\"CSL peer interaction / MICM\"的关联属于外围情境层而非核心机制层：它聚焦的是英国中文补习学校中教师的translanguaging教学实践，虽然同处CSL/CHL教学生态，但其分析单位是教师课堂语言选择及社会文化动因，并未涉及学习者之间的peer interaction、meaning negotiation或LRE编码，因此与你稿件中需要论证的MICM互动机制没有直接对话点。",
+    "doi": "https://scholar.google.com/scholar?q=Translanguaging%20as%20pedagogy%20in%20a%20Chinese%20complementary%20school%20in%20the%20UK",
+    "added_date": "2026-06-27",
+    "id": "2026-06-27-0",
+    "removed_reason": "uses scholar.google.com proxy instead of real DOI"
   }
 ]
