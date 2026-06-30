@@ -1,5 +1,41 @@
 [
   {
+    "title": "Online Learning and Emergency Remote Teaching: Opportunities and Challenges in Emergency Situations",
+    "author": "Fernando Ferri, Patrizia Grifoni, Tiziana Guzzo",
+    "journal": "Societies",
+    "year": 2020,
+    "citations": 1337,
+    "abstract": "The aim of the study is to analyse the opportunities and challenges of emergency remote teaching based on experiences of the COVID-19 emergency. A qualitative research method was undertaken in two steps. In the first step, a thematic analysis of an online discussion forum with international experts from different sectors and countries was carried out. In the second step (an Italian case study), bo…",
+    "relevance": "这篇论文与你今日主线（社交平台多模态话语、可供性与身份建构）的关联度很低：它关注的是疫情期间紧急远程教学的机遇与挑战，虽然涉及\"在线\"场景，但其核心是教育政策与教学组织层面的应急响应，并未触及平台可供性如何塑造多模态话语实践或用户身份协商。",
+    "doi": "https://doi.org/10.3390/soc10040086",
+    "added_date": "2026-06-30",
+    "id": "2026-06-30-2"
+  },
+  {
+    "title": "A survey on sentiment analysis methods, applications, and challenges",
+    "author": "Mayur Wankhade, Annavarapu Chandra Sekhara Rao, Chaitanya Kulkarni",
+    "journal": "Artificial Intelligence Review",
+    "year": 2022,
+    "citations": 1425,
+    "abstract": "",
+    "relevance": "这篇论文属于计算机科学/自然语言处理领域的综述，聚焦情感分析的技术方法与工程应用，与你今日主线\"社交平台多模态话语、可供性与身份建构\"以及活跃稿件Xiaohongshu研究的关联性极为有限。虽然情感分析在技术层面也处理社交媒体文本，但它的核心关切是分类算法的精度与效率，而非话语如何在平台上建构身份、分配权力，与你的批判话语分析取向和多模态数据链写作目标基本不在同一问题域。",
+    "doi": "https://doi.org/10.1007/s10462-022-10144-1",
+    "added_date": "2026-06-30",
+    "id": "2026-06-30-1"
+  },
+  {
+    "title": "Metaverse beyond the hype: Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
+    "author": "Yogesh K. Dwivedi, Laurie Hughes, Abdullah M. Baabdullah et al.",
+    "journal": "International Journal of Information Management",
+    "year": 2022,
+    "citations": 2583,
+    "abstract": "The metaverse has the potential to extend the physical world using augmented and virtual reality technologies allowing users to seamlessly interact within real and simulated environments using avatars and holograms. Virtual environments and immersive games (such as, Second Life, Fortnite, Roblox and VRChat) have been described as antecedents of the metaverse and offer some insight to the potential…",
+    "relevance": "这篇论文是一篇关于元宇宙的多学科综述，聚焦增强/虚拟现实技术的社会经济影响与政策议题，与你今日主线（社交平台多模态话语、可供性与身份建构）仅在\"数字平台可供性\"这一概念层有微弱关联，但它讨论的是沉浸式虚拟环境（Second Life、Roblox等）而非用户生成内容型社交平台（如小红书），其关注点在技术架构与政策治理，而非话语实践、translanguaging或身份协商，因此与你的Xiaohongshu稿件在问题意识和分析对象上距离较远。",
+    "doi": "https://doi.org/10.1016/j.ijinfomgt.2022.102542",
+    "added_date": "2026-06-30",
+    "id": "2026-06-30-0"
+  },
+  {
     "title": "Banglalish on social media: A corpus-based study of Bangla–English code-mixing across four platforms in Bangladesh",
     "author": "Shajadul Alam Sweet, Md. Nurul Kabir Emon, Sadia Khandokar Mim et al.",
     "journal": "Digital Applied Linguistics",
