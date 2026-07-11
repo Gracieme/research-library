@@ -1,5 +1,29 @@
 [
   {
+    "title": "The Role of Translanguaging in Computational Literacies",
+    "author": "Sara Vogel, Christopher Hoadley, Laura Ascenzi‐Moreno et al.",
+    "journal": "—",
+    "year": 2019,
+    "citations": 58,
+    "abstract": "Bilingual education has described a process called translanguaging by which students use linguistic resources across and beyond multiple named languages to learn. Here, we examine how bilingual learners translanguage while learning computer science. These middle schoolers participated in a curricular intervention which infused computational thinking into their Spanish-English bilingual language ar…",
+    "relevance": "这篇论文与你今日主线\"Chinese-English translanguaging in digital third spaces and identity work\"在理论层面部分相关，但语境和分析对象差异较大：它讨论的是线下课堂中西英双语学生在计算思维活动中的translanguaging，而非数字平台上的自发身份实践。不过，它将translanguaging从纯语言层面扩展到跨学科（computational literacies）和跨模态（代码、视觉等符号资源）边界的做法，与你稿件中试图论证translanguaging\"不对称功能\"跨越语言-多模态-平台界面的框架逻辑有可借鉴之处。",
+    "doi": "https://doi.org/10.1145/3287324.3287368",
+    "added_date": "2026-07-11",
+    "id": "2026-07-11-2"
+  },
+  {
+    "title": "“I Don&#x27;t Let What I Don&#x27;t Know Stop What I Can do”—How Monolingual English Teachers Constructed a Translanguaging<scp>Pre‐K</scp>Classroom in China",
+    "author": "Lijuan Shi, Kellie Rolstad",
+    "journal": "TESOL Quarterly",
+    "year": 2022,
+    "citations": 17,
+    "abstract": "Abstract Guided by translanguaging pedagogy, this study examines how monolingual English teachers in a Pre‐K school in China navigate between English and Chinese to construct a translanguaging classroom. Findings based on classroom observations and interviews reveal that, despite being constrained by their monolingualism, the English teachers enacted translanguaging in multiple ways creating three…",
+    "relevance": "这篇论文与你今日主线\"Chinese-English translanguaging in digital third spaces and identity work\"存在理论层面的关联但语境差异较大：它同样处理中英translanguaging的功能分类（assistance, assessment, showcases），与你在Xiaohongshu稿件中对translanguaging asymmetric functions的分类逻辑形成对话，但其研究场域是线下Pre-K课堂、参与者是单语教师，与你关注的数字第三空间和用户自发身份建构有本质不同。",
+    "doi": "https://doi.org/10.1002/tesq.3204",
+    "added_date": "2026-07-11",
+    "id": "2026-07-11-1"
+  },
+  {
     "title": "Teacher anger as a double-edged sword: Contrasting trait and emotional labor effects",
     "author": "Hui Wang, Ming Ming Chiu, Nathan C. Hall",
     "journal": "Motivation and Emotion",
