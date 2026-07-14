@@ -1,5 +1,41 @@
 [
   {
+    "title": "Review of recent empirical research (2011–2018) on language assessment in China",
+    "author": "Shangchao Min, Lianzhen He, Jie Zhang",
+    "journal": "Language Teaching",
+    "year": 2020,
+    "citations": 12,
+    "abstract": "Abstract This article reviews a selected sample of 70 empirical studies in journal articles and doctoral dissertations on language assessment in China between 2011 and 2018. Following a brief introduction to the history and current state of language assessment in China, the article presents a critical review of language assessment research on six themes that have aroused the greatest interest from…",
+    "relevance": "这篇综述聚焦中国语境下的语言评估实证研究，与你今日主线\"AP Chinese assessment\"同属语言测评领域，但其关注的是中国国内考试（如CET、TEM等）的信效度、反拨效应等议题，与你稿件所批判的美国制度性评估框架（College Board / AP考试中的元语言不对称与知识权威分配）在制度语境、理论立场和批判深度上差异明显，属于\"领域相关但问题意识层不相关\"。",
+    "doi": "https://doi.org/10.1017/s0261444820000051",
+    "added_date": "2026-07-14",
+    "id": "2026-07-14-2"
+  },
+  {
+    "title": "Portfolio Based Language Assessment (PBLA) in Language Instruction for Newcomers to Canada (LINC) Programs: Taking Stock of Teachers&#x27; Experience",
+    "author": "Nwara Abdulhamid, Janna Fox",
+    "journal": "Canadian Journal of Applied Linguistics",
+    "year": 2020,
+    "citations": 8,
+    "abstract": "This study examined seven Language Instruction for Newcomers to Canada (LINC) teachers’ accounts of current Portfolio Based Language Assessment (PBLA) practices, elicited through semi-structured interviews, in order to explore washback - the effects of PBLA on teaching and learning. Portfolios are primarily useful as formative assessment tools (i.e., informing teaching and learning) (Fox, 2014; Li…",
+    "relevance": "这篇论文与你今日主线\"AP Chinese assessment, metalinguistic asymmetry, and epistemic authority\"在制度性评估政策对教学的反拨效应（washback）这一层高度相关：PBLA作为国家层面强制推行的评估框架如何重塑教师实践、限制教学自主权，与你对AP Chinese考试框架如何通过评分标准分配认识论权威（epistemic authority）、制造元语言不对称的批判逻辑共享同一条制度批判主线——都是在追问\"评估文件如何成为权力装置\"。",
+    "doi": "https://doi.org/10.37213/cjal.2020.31121",
+    "added_date": "2026-07-14",
+    "id": "2026-07-14-1"
+  },
+  {
+    "title": "An Extensive Knowledge Mapping Review of Measurement and Validity in Language Assessment and SLA Research",
+    "author": "Vahid Aryadoust, Azrifah Zakaria, Mei Hui Lim et al.",
+    "journal": "Frontiers in Psychology",
+    "year": 2020,
+    "citations": 43,
+    "abstract": "This study set out to investigate intellectual domains as well as the use of measurement and validation methods in language assessment research and second language acquisition (SLA) published in English in peer-reviewed journals. Using Scopus, we created two datasets: (i) a dataset of core journals consisting of 1,561 articles published in four language assessment journals, and (ii) a dataset of g…",
+    "relevance": "这篇论文属于语言测评领域的文献计量/知识图谱综述，与你今日主线\"AP Chinese assessment, metalinguistic asymmetry, epistemic authority\"仅在最宽泛的\"language assessment\"学科归属上有交集，并不触及你关注的具体制度文件批判、元语言不对称或知识权威分配等问题。它的核心工作是用共被引分析梳理测评与效度研究的知识版图，与你当前稿件所需的问题界定、制度性论证和有边界的批判分析在方法论层面几乎没有可迁移之处。",
+    "doi": "https://doi.org/10.3389/fpsyg.2020.01941",
+    "added_date": "2026-07-14",
+    "id": "2026-07-14-0"
+  },
+  {
     "title": "Engaging students in learning and creating different translanguaging sub-spaces in Hong Kong English Medium Instruction history classrooms",
     "author": "Kevin W. H. Tai, Li Wei",
     "journal": "Language and Education",
