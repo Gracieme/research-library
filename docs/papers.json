@@ -1,5 +1,29 @@
 [
   {
+    "title": "Tackling Climate Change with Machine Learning",
+    "author": "Lynn H. Kaack, David Rolnick, Priya L. Donti et al.",
+    "journal": "OPUS 4 (Zuse Institute Berlin)",
+    "year": 2022,
+    "citations": 894,
+    "abstract": "Climate change is one of the greatest challenges facing humanity, and we, as machine learning experts, may wonder how we can help. Here we describe how machine learning can be a powerful tool in reducing greenhouse gas emissions and helping society adapt to a changing climate. From smart grids to disaster management, we identify high impact problems where existing gaps can be filled by machine lea…",
+    "relevance": "这篇论文与你今日主线及活跃稿件几乎完全不相关。它聚焦于机器学习在气候变化领域的应用场景，既不涉及社交平台多模态话语、语言身份建构，也不涉及应用语言学的任何理论或方法层面。",
+    "doi": "https://doi.org/10.1145/3485128",
+    "added_date": "2026-07-21",
+    "id": "2026-07-21-2"
+  },
+  {
+    "title": "A Review of Artificial Intelligence (AI) in Education from 2010 to 2020",
+    "author": "Xuesong Zhai, Xiaoyan Chu, Ching Sing Chai et al.",
+    "journal": "Complexity",
+    "year": 2021,
+    "citations": 1166,
+    "abstract": "This study provided a content analysis of studies aiming to disclose how artificial intelligence (AI) has been applied to the education sector and explore the potential research trends and challenges of AI in education. A total of 100 papers including 63 empirical papers (74 studies) and 37 analytic papers were selected from the education and educational research category of Social Sciences Citati…",
+    "relevance": "这篇论文是一篇关于AI在教育中应用的系统性内容分析综述，与你今日主线（社交平台多模态话语、可供性与身份建构）以及活跃稿件的主题几乎没有实质性交集——它既不涉及社交平台话语分析，也不触及translanguaging、身份认同或批判话语研究。",
+    "doi": "https://doi.org/10.1155/2021/8812542",
+    "added_date": "2026-07-21",
+    "id": "2026-07-21-0"
+  },
+  {
     "title": "Translanguaging in Primary Level ESL Classroom in India: An Exploratory Study",
     "author": "Lina Mukhopadhyay",
     "journal": "International Journal of English Language Teaching",
