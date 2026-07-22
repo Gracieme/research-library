@@ -1,5 +1,17 @@
 [
   {
+    "title": "Translation in CLIL",
+    "author": "Viviana Gaballo",
+    "journal": "Translation and Translanguaging in Multilingual Contexts",
+    "year": 2023,
+    "citations": 4,
+    "abstract": "Abstract Translation in CLIL? It may seem a contradiction in terms. CLIL means Content and Language Integrated Learning, and is based on the assumption that content is taught through the second/foreign language. No room is left to the learners’ mother tongue, which is either declared off limits or used in very limited cases. So, what is the role of translation in CLIL? Is there any place for it at…",
+    "relevance": "这篇论文与你今日主线\"Translanguaging, identity negotiation, and action research in EMI classrooms\"在问题意识层有直接关联：它追问在以目标语为教学媒介的CLIL课堂中，母语和翻译究竟扮演什么角色，这与你的EMI语法课堂中translanguaging实践的合法性论证共享同一个核心张力——\"单语规范 vs. 多语资源调动\"。但该文聚焦的是翻译（translation）而非更宽泛的translanguaging框架，且未涉及身份协商或行动研究方法论，因此理论深度和方法设计上与你的稿件距离较远。",
+    "doi": "https://doi.org/10.1075/ttmc.00102.gab",
+    "added_date": "2026-07-22",
+    "id": "2026-07-22-2"
+  },
+  {
     "title": "Tackling Climate Change with Machine Learning",
     "author": "Lynn H. Kaack, David Rolnick, Priya L. Donti et al.",
     "journal": "OPUS 4 (Zuse Institute Berlin)",
