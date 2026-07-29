@@ -1,5 +1,41 @@
 [
   {
+    "title": "An Introduction to Discourse Analysis",
+    "author": "James Paul Gee",
+    "journal": "—",
+    "year": 2025,
+    "citations": 29,
+    "abstract": "This bestselling textbook provides a comprehensive guide to conducting discourse analysis. The book outlines Gee’s approach, which involves examining how language is used in context to construct meaning, identities, relationships, and social practices. The theoretical framework is built around seven \"building tasks\" that language performs: significance, practices, identities, relationships, politi…",
+    "relevance": "这篇是Gee的经典话语分析教材，与用户今日主线直接相关但属于基础理论工具层而非前沿对话层。Gee的\"七大建构任务\"（尤其是identities、relationships、sign systems）和\"figured worlds\"等分析工具，正是用户在Xiaohongshu稿件中论证translanguaging如何完成身份建构（identity work）时可直接调用的分析框架——特别是在将功能分类与身份论证衔接时，figured worlds可以帮助解释用户为何将某些translanguaging实践归入特定功能类别，使编码逻辑更可辩护。",
+    "doi": "https://doi.org/10.4324/9781003535935",
+    "added_date": "2026-07-29",
+    "id": "2026-07-29-2"
+  },
+  {
+    "title": "Towards a Richer Understanding of Language and Identity in the MNC: Constructing Cosmopolitan Identities Through “English”",
+    "author": "Päivi Karhunen, Anne Kankaanranta, Tiina Räisänen",
+    "journal": "Management International Review",
+    "year": 2023,
+    "citations": 17,
+    "abstract": "Abstract Bringing in insights from sociolinguistics, this conceptual paper advances the theorizing on language and identity in the MNC, viewed as socially constructed by individuals in interaction when they cross fluid linguistic and geographical boundaries. We posit that the identities of global business professionals in the MNC are not intrinsically tied to nationality and native language, they …",
+    "relevance": "这篇论文与你今日主线\"Chinese-English translanguaging in digital third spaces and identity work\"的关联主要在身份建构的理论层面：它将身份从\"本族语/国籍\"的本质主义框架中解绑，论证全球专业人士通过英语作为通用语（BELF）互动来建构流动的\"世界公民身份\"（cosmopolitan identity），这一\"身份非本质化\"的论证逻辑与你在小红书稿件中试图超越\"deficit\"叙事、展示translanguaging如何赋予用户多重身份位置的核心立场相呼应。",
+    "doi": "https://doi.org/10.1007/s11575-023-00504-6",
+    "added_date": "2026-07-29",
+    "id": "2026-07-29-1"
+  },
+  {
+    "title": "‘Stop Measuring Black Kids with a White Stick’: Translanguaging for Classroom Assessment",
+    "author": "Carly Steele, Sender Dovchin, Rhonda Oliver",
+    "journal": "RELC Journal",
+    "year": 2022,
+    "citations": 43,
+    "abstract": "In this conceptual paper, we explore the opportunities and challenges that translanguaging may provide for students from Australian Aboriginal backgrounds and their teachers. We use examples taken from Australian Aboriginal students who may speak Standard Australian English, Australian Aboriginal English, creoles (Kriol being the common one across the north of Australia) and traditional languages …",
+    "relevance": "这篇论文与你今日主线\"digital third spaces中的translanguaging与identity work\"在理论层有交叉但语境差异显著：它聚焦的是课堂评估中translanguaging如何挑战单语标准化测量对原住民学生的deficit framing，这与你Beyond Deficit稿件的\"超越缺陷视角\"立意直接呼应，但它处理的是制度性评估话语而非数字平台上的用户自发实践。",
+    "doi": "https://doi.org/10.1177/00336882221086307",
+    "added_date": "2026-07-29",
+    "id": "2026-07-29-0"
+  },
+  {
     "title": "Racial integration through two-way dual language immersion: A case study",
     "author": "Elizabeth M. Uzzell, Jennifer B. Ayscue",
     "journal": "Education Policy Analysis Archives",
