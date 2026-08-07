@@ -154,5 +154,18 @@
     "added_date": "2026-07-27",
     "id": "2026-07-27-0",
     "removed_reason": "uses scholar.google.com proxy instead of real DOI"
+  },
+  {
+    "title": "TikTok Refugees, Digital Migration, and the Expanding Affordances of Xiaohongshu (RedNote) for Informal Language Learning",
+    "author": "",
+    "journal": "International Journal of TESOL Studies",
+    "year": 2025,
+    "citations": 7,
+    "abstract": "The mass influx of English-speaking \"TikTok refugees\" to Xiaohongshu (also known as RedNote) has not only reshaped Xiaohongshu into a dynamic space for intercultural exchange but has also unlocked a wealth of opportunities for informal language learning within an integrated, accessible, and engaging translingual and transcultural digital ecosystem.Building upon the theoretical construct of languag…",
+    "relevance": "这篇论文与你今日主线\"Chinese-English translanguaging in digital third spaces and identity work\"高度重合：它同样以小红书为平台语境，同样关注中英跨语言实践，且聚焦\"TikTok难民\"涌入后平台功能生态的变化，这恰好为你Beyond Deficit稿件提供了一个可以显性对话的\"近邻文献\"——你需要在贡献陈述中清晰区分你的研究与此类\"affordance/informal learning\"取向的不同（即你做的是功能分类与身份建构的批判性分析，而非平台可供性的描述性框架）。",
+    "doi": "https://doi.org/10.58304/ijts.250123",
+    "added_date": "2026-08-07",
+    "id": "2026-08-07-0",
+    "removed_reason": "DOI returns 404"
   }
 ]
