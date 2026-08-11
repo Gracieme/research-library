@@ -1,5 +1,29 @@
 [
   {
+    "title": "Taxonomy of Risks posed by Language Models",
+    "author": "Laura Weidinger, Jonathan Uesato, Maribeth Rauh et al.",
+    "journal": "2022 ACM Conference on Fairness, Accountability, and Transparency",
+    "year": 2022,
+    "citations": 653,
+    "abstract": "Responsible innovation on large-scale Language Models (LMs) requires foresight into and in-depth understanding of the risks these models may pose. This paper develops a comprehensive taxonomy of ethical and social risks associated with LMs. We identify twenty-one risks, drawing on expertise and literature from computer science, linguistics, and the social sciences. We situate these risks in our ta…",
+    "relevance": "这篇论文与你今日主线（社交平台多模态话语与身份建构）没有直接对接，它关注的是大语言模型的伦理与社会风险分类，并非针对用户生成内容的多模态话语分析或平台可供性研究。与你活跃稿件（Xiaohongshu translanguaging）的关联最多停留在非常外围的层面——其中关于\"歧视、排斥\"和\"人机交互伤害\"的风险类别可能间接触及数字平台上的语言意识形态与权力分配，但论文本身并未处理真实平台话语数据或身份协商过程。",
+    "doi": "https://doi.org/10.1145/3531146.3533088",
+    "added_date": "2026-08-11",
+    "id": "2026-08-11-2"
+  },
+  {
+    "title": "The impact of artificial intelligence on learner–instructor interaction in online learning",
+    "author": "Kyoungwon Seo, Joice Tang, Ido Roll et al.",
+    "journal": "International Journal of Educational Technology in Higher Education",
+    "year": 2021,
+    "citations": 727,
+    "abstract": "Artificial intelligence (AI) systems offer effective support for online learning and teaching, including personalizing learning for students, automating instructors&#x27; routine tasks, and powering adaptive assessments. However, while the opportunities for AI are promising, the impact of AI systems on the culture of, norms in, and expectations about interactions between students and instructors are st…",
+    "relevance": "这篇论文关注AI对在线学习中师生互动的影响，与你今日主线（社交平台多模态话语、可供性与身份建构）的关联度较低——它处理的是AI技术介入下的教育交互文化与规范变迁，既不涉及社交媒体平台的多模态数据，也不聚焦身份协商或translanguaging实践。如果说有可借鉴之处，在于它试图将\"平台可供性\"（AI系统功能）与\"互动文化/规范\"之间的关系问题化，这一问题意识的框架——技术可供性如何重塑互动期待与权力分配——与你在小红书稿件中需要论证\"平台可供性如何形塑translanguaging实践\"的逻辑结构有方法层面的平行性，但具体理论资源和数据类型差异太大，实际可迁移的内容有限。",
+    "doi": "https://doi.org/10.1186/s41239-021-00292-9",
+    "added_date": "2026-08-11",
+    "id": "2026-08-11-1"
+  },
+  {
     "title": "A multimodal discursive approach to translanguaging and identity in Chilean social media",
     "author": "Carolina Pérez-Arredondo, Daniela Avello, Luís Cárcamo-Ulloa",
     "journal": "Discourse Context & Media",
