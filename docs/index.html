@@ -297,7 +297,7 @@
     </div>
     <div class="stat-item">
       <div class="stat-num" id="stat-tags">—</div>
-      <div class="stat-label">个关键词</div>
+      <div class="stat-label">类价值</div>
     </div>
     <div class="stat-item">
       <div class="stat-num" id="stat-years">—</div>
@@ -309,7 +309,11 @@
 <div class="layout">
   <aside class="sidebar">
     <div class="sidebar-section">
-      <div class="sidebar-title">🏷 研究主题</div>
+      <div class="sidebar-title">⭐ 研究价值</div>
+      <div class="filter-list" id="value-list"></div>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-title">📖 来源期刊</div>
       <div class="filter-list" id="tag-list"></div>
     </div>
     <div class="sidebar-section">
@@ -350,6 +354,7 @@ let papers = [];
 let notes = {};  // stored in localStorage per paper id
 let activeTag = null;
 let activeYear = null;
+let activeValue = null;
 
 // ── Load notes from localStorage ──────────────────────────────────────
 function loadNotes() {
@@ -389,6 +394,39 @@ function getYears() {
   papers.forEach(p => { if (p.year) map[p.year] = (map[p.year] || 0) + 1; });
   return map;
 }
+const researchValueFilters = [
+  {
+    key: 'high',
+    label: '高度相关',
+    match: p => /高度相关|直接相关|密切相关/.test(p.relevance || '')
+  },
+  {
+    key: 'method',
+    label: '方法论可借鉴',
+    match: p => /方法论|方法|autoethnography|自我民族志|self-study|会话分析|多模态|phenomenolog|现象学|CDA|批评话语分析/.test(`${p.title || ''} ${p.abstract || ''} ${p.relevance || ''}`)
+  },
+  {
+    key: 'theory',
+    label: '理论概念可用',
+    match: p => /理论|概念|框架|epistemic injustice|认识论不公正|权力|公平|equity|validity|效度|washback|中介/.test(`${p.title || ''} ${p.abstract || ''} ${p.relevance || ''}`)
+  },
+  {
+    key: 'context',
+    label: '语境相近',
+    match: p => /中国|Chinese|China|EFL|EMI|语言教育|课堂|高等教育|大学/.test(`${p.title || ''} ${p.abstract || ''} ${p.relevance || ''}`)
+  },
+  {
+    key: 'background',
+    label: '背景参考',
+    match: p => /间接关联|背景参考|关联性较为有限|一定呼应|潜在关联/.test(p.relevance || '')
+  }
+];
+function getResearchValues() {
+  return researchValueFilters.map(f => ({
+    ...f,
+    count: papers.filter(f.match).length
+  })).filter(f => f.count);
+}
 
 function getFiltered() {
   const q = document.getElementById('search-input').value.trim().toLowerCase();
@@ -397,6 +435,10 @@ function getFiltered() {
   let result = papers.filter(p => {
     if (activeTag && (p.journal || '').trim() !== activeTag) return false;
     if (activeYear && String(p.year) !== String(activeYear)) return false;
+    if (activeValue) {
+      const selected = researchValueFilters.find(f => f.key === activeValue);
+      if (selected && !selected.match(p)) return false;
+    }
     if (!q) return true;
     return (
       (p.title     || '').toLowerCase().includes(q) ||
@@ -424,28 +466,39 @@ function getFiltered() {
 function renderSidebar() {
   const tags = getKeywords();
   const years = getYears();
+  const values = getResearchValues();
 
   const tagEl = document.getElementById('tag-list');
-  tagEl.innerHTML = `<button class="filter-btn ${!activeTag?'active':''}" onclick="filterTag(null)">
+  tagEl.innerHTML = `<button class="filter-btn ${!activeTag?'active':''}" data-filter-type="tag" data-filter-value="">
     全部期刊 <span class="badge">${papers.length}</span></button>` +
     Object.entries(tags).sort((a,b)=>b[1]-a[1]).slice(0,20).map(([t,c])=>
-      `<button class="filter-btn ${activeTag===t?'active':''}" onclick="filterTag(${JSON.stringify(t)})">
+      `<button class="filter-btn ${activeTag===t?'active':''}" data-filter-type="tag" data-filter-value="${esc(t)}">
         <span style="flex:1;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${esc(t)}</span>
         <span class="badge">${c}</span>
       </button>`
     ).join('');
 
+  const valueEl = document.getElementById('value-list');
+  valueEl.innerHTML = `<button class="filter-btn ${!activeValue?'active':''}" data-filter-type="value" data-filter-value="">
+    全部价值 <span class="badge">${papers.length}</span></button>` +
+    values.map(v =>
+      `<button class="filter-btn ${activeValue===v.key?'active':''}" data-filter-type="value" data-filter-value="${esc(v.key)}">
+        <span style="flex:1;text-align:left">${esc(v.label)}</span>
+        <span class="badge">${v.count}</span>
+      </button>`
+    ).join('');
+
   const yearEl = document.getElementById('year-list');
-  yearEl.innerHTML = `<button class="filter-btn ${!activeYear?'active':''}" onclick="filterYear(null)">
+  yearEl.innerHTML = `<button class="filter-btn ${!activeYear?'active':''}" data-filter-type="year" data-filter-value="">
     全部年份 <span class="badge">${papers.length}</span></button>` +
     Object.entries(years).sort((a,b)=>b[0]-a[0]).map(([y,c])=>
-      `<button class="filter-btn ${activeYear===y?'active':''}" onclick="filterYear(${JSON.stringify(y)})">
+      `<button class="filter-btn ${activeYear===y?'active':''}" data-filter-type="year" data-filter-value="${esc(y)}">
         ${y}年 <span class="badge">${c}</span>
       </button>`
     ).join('');
 
   document.getElementById('stat-total').textContent = papers.length;
-  document.getElementById('stat-tags').textContent  = Object.keys(tags).length;
+  document.getElementById('stat-tags').textContent  = values.length;
   document.getElementById('stat-years').textContent = Object.keys(years).length;
 }
 
@@ -456,9 +509,13 @@ function renderCards() {
   const container = document.getElementById('cards-container');
   const infoEl = document.getElementById('result-info');
 
-  if (q || activeTag || activeYear) {
+  if (q || activeTag || activeYear || activeValue) {
     const parts = [];
     if (q) parts.push(`"${q}"`);
+    if (activeValue) {
+      const selected = researchValueFilters.find(f => f.key === activeValue);
+      if (selected) parts.push(`研究价值：${selected.label}`);
+    }
     if (activeTag) parts.push(`期刊：${activeTag}`);
     if (activeYear) parts.push(`年份：${activeYear}`);
     infoEl.innerHTML = `找到 <strong>${filtered.length}</strong> 篇（筛选：${parts.join(' + ')}）
@@ -533,7 +590,8 @@ function render() { renderSidebar(); renderCards(); }
 // ── Interactions ──────────────────────────────────────────────────────
 function filterTag(t) { activeTag = t; render(); }
 function filterYear(y) { activeYear = y; render(); }
-function clearAll() { activeTag = null; activeYear = null; document.getElementById('search-input').value = ''; render(); }
+function filterValue(v) { activeValue = v; render(); }
+function clearAll() { activeTag = null; activeYear = null; activeValue = null; document.getElementById('search-input').value = ''; render(); }
 
 function toggleAbs(id) {
   const el = document.getElementById(`abs-${id}`);
@@ -553,6 +611,15 @@ function toggleNotes(id) {
 // ── Init ──────────────────────────────────────────────────────────────
 document.getElementById('search-input').addEventListener('input', () => renderCards());
 document.getElementById('sort-select').addEventListener('change', () => renderCards());
+document.querySelector('.sidebar').addEventListener('click', event => {
+  const btn = event.target.closest('[data-filter-type]');
+  if (!btn) return;
+
+  const value = btn.dataset.filterValue || null;
+  if (btn.dataset.filterType === 'tag') filterTag(value);
+  if (btn.dataset.filterType === 'year') filterYear(value);
+  if (btn.dataset.filterType === 'value') filterValue(value);
+});
 
 loadNotes();
 
