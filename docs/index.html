@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>科研文献资料库</title>
+  <title>启发型科研文献库</title>
   <style>
     :root {
       --sky: #4a7fa5;
@@ -286,8 +286,8 @@
   <div class="header-left">
     <span class="header-icon">🔬</span>
     <div>
-      <div class="header-title">科研文献资料库</div>
-      <div class="header-sub">每日自动同步 · 关键词检索 · 文献综述助手</div>
+      <div class="header-title">启发型科研文献库</div>
+      <div class="header-sub">以已发表研究为主线 · 宁缺毋滥 · 每篇都要有可迁移动作</div>
     </div>
   </div>
   <div class="header-stats">
@@ -397,8 +397,8 @@ function getYears() {
 const researchValueFilters = [
   {
     key: 'high',
-    label: '高度相关',
-    match: p => /高度相关|直接相关|密切相关/.test(p.relevance || '')
+    label: '直接推进主线',
+    match: p => /主线：|高度相关|直接相关|密切相关/.test(p.relevance || '')
   },
   {
     key: 'method',
@@ -407,18 +407,13 @@ const researchValueFilters = [
   },
   {
     key: 'theory',
-    label: '理论概念可用',
+    label: '问题或概念启发',
     match: p => /理论|概念|框架|epistemic injustice|认识论不公正|权力|公平|equity|validity|效度|washback|中介/.test(`${p.title || ''} ${p.abstract || ''} ${p.relevance || ''}`)
   },
   {
-    key: 'context',
-    label: '语境相近',
-    match: p => /中国|Chinese|China|EFL|EMI|语言教育|课堂|高等教育|大学/.test(`${p.title || ''} ${p.abstract || ''} ${p.relevance || ''}`)
-  },
-  {
-    key: 'background',
-    label: '背景参考',
-    match: p => /间接关联|背景参考|关联性较为有限|一定呼应|潜在关联/.test(p.relevance || '')
+    key: 'transfer',
+    label: '有可迁移动作',
+    match: p => /可迁移动作：|最值得借鉴|可以直接借鉴|可迁移/.test(p.relevance || '')
   }
 ];
 function getResearchValues() {
@@ -572,7 +567,7 @@ function cardHtml(p, q) {
     ` : ''}
     ${p.relevance ? `
       <div class="relevance-box">
-        <div class="relevance-label">💡 与研究的关联</div>
+        <div class="relevance-label">💡 为什么值得读</div>
         ${hl(p.relevance, q)}
       </div>` : ''}
     <div class="paper-footer">
@@ -580,7 +575,7 @@ function cardHtml(p, q) {
       ${dateHtml}
     </div>
     <textarea class="notes-area${note?'':''}" id="notes-${esc(p.id)}"
-      placeholder="记录你的阅读笔记、与论文的关联…"
+      placeholder="记录它给你的新问题、可迁移方法或可模仿写法…"
       onblur="saveNote('${esc(p.id)}', this.value)">${esc(note)}</textarea>
   </div>`;
 }

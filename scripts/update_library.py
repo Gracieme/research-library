@@ -10,6 +10,8 @@ import sys
 from datetime import date, timedelta
 from pathlib import Path
 
+from curation import inspiration_rejection_reason
+
 SOURCE_BASE = "https://gracieme.github.io/agent-for-news/data"
 PAPERS_FILE = Path(__file__).parent.parent / "docs" / "papers.json"
 
@@ -137,6 +139,18 @@ def main():
     new_papers = parse_research_html(data.get("research", ""))
     if not new_papers:
         print("No papers parsed today.")
+        sys.exit(0)
+
+    accepted_papers = []
+    for paper in new_papers:
+        reason = inspiration_rejection_reason(paper, require_transfer_marker=True)
+        if reason:
+            print(f"  Reject (not inspiration-grade): {paper.get('title','')[:60]} — {reason}")
+            continue
+        accepted_papers.append(paper)
+    new_papers = accepted_papers
+    if not new_papers:
+        print("No papers passed the inspiration-only gate. Library unchanged.")
         sys.exit(0)
 
     existing = load_existing()
