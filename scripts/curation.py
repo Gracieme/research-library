@@ -62,13 +62,14 @@ def inspiration_rejection_reason(paper, require_transfer_marker=True):
     title = str(paper.get("title") or "")
     abstract = str(paper.get("abstract") or "")
     relevance = str(paper.get("relevance") or "")
-    text = f"{title} {abstract} {relevance}".lower()
+    content_text = f"{title} {abstract}".lower()
+    all_text = f"{title} {abstract} {relevance}".lower()
 
-    if any(term in text for term in RETIRED_RESEARCH_TERMS):
+    if any(term in content_text for term in RETIRED_RESEARCH_TERMS):
         return "retired MICM/LRE/negotiation-of-meaning research line"
     if any(marker in relevance for marker in WEAK_RELEVANCE_MARKERS):
         return "relevance note explicitly says the paper is weak or peripheral"
-    if not any(any(term in text for term in group) for group in MAINLINE_TERM_GROUPS):
+    if not any(any(term in all_text for term in group) for group in MAINLINE_TERM_GROUPS):
         return "does not connect to a published mainline or approved extension"
     if require_transfer_marker and "可迁移动作：" not in relevance:
         return "missing a concrete transferable research move"

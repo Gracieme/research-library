@@ -45,9 +45,28 @@ def curate(papers):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--apply", action="store_true", help="write the curated library and archive removed entries")
+    parser.add_argument(
+        "--restore-curation-archive",
+        action="store_true",
+        help="reconsider entries previously removed only by inspiration curation",
+    )
     args = parser.parse_args()
 
     papers = load_json(PAPERS_FILE, [])
+    archived = load_json(REMOVED_FILE, [])
+    protected_archive = archived
+    if args.restore_curation_archive:
+        reconsider = [
+            item for item in archived
+            if str(item.get("removed_reason") or "").startswith("inspiration-only curation:")
+        ]
+        protected_archive = [
+            item for item in archived
+            if not str(item.get("removed_reason") or "").startswith("inspiration-only curation:")
+        ]
+        known_ids = {item.get("id") for item in papers}
+        papers.extend(item for item in reconsider if item.get("id") not in known_ids)
+        print(f"Reconsidering {len(reconsider)} previously curated entries.")
     kept, removed = curate(papers)
     counts = Counter(item["removed_reason"] for item in removed)
 
@@ -61,7 +80,7 @@ def main():
         print("Dry run only. Re-run with --apply to write changes.")
         return
 
-    existing_removed = load_json(REMOVED_FILE, [])
+    existing_removed = list(protected_archive)
     existing_ids = {item.get("id") for item in existing_removed}
     existing_removed.extend(item for item in removed if item.get("id") not in existing_ids)
     save_json(PAPERS_FILE, kept)

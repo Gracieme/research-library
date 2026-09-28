@@ -20,6 +20,14 @@ class CurationTests(unittest.TestCase):
         }
         self.assertIn("retired", inspiration_rejection_reason(paper))
 
+    def test_old_micm_framing_does_not_remove_a_new_mainline_paper(self):
+        paper = {
+            "title": "Epistemic injustice in English medium instruction",
+            "abstract": "A classroom ethnography of knowledge participation through translanguaging in EMI.",
+            "relevance": "旧说明曾把它连接到MICM，但现在它直接推进EMI身份与知识参与主线。",
+        }
+        self.assertEqual(inspiration_rejection_reason(paper, False), "")
+
     def test_rejects_explicitly_peripheral_paper(self):
         paper = {
             "title": "General social media research",
